@@ -1,0 +1,149 @@
++++
+title = 'Being a part of everything, tiring'
+date = 2025-10-24T15:55:00+05:30
+draft = false
+[cover]
+    image="https://theblog-static.s3.ap-south-1.amazonaws.com/week11/lillylakestairs.JPG"
+    caption="A lotus lake in Auroville"
++++
+I want to let you all know that you can now [sub to my newsletter](https://whereisanirudh.info/subs/) for updates. Thank you.
+## Week 11, Oct 2025
+One of the battles I frequently find myself in, with myself, is to keep track of all my things. I
+forget where I put them the moment they leave my hand and when I need them again, I have to go through
+all possible pockets (pants, bags, wallets, etc) to eventually find them in one place I would have
+never checked, not even considering it a possibility. I place things so absently that most of the time
+I can't even remember that I was carrying them while at the same time I can pull out images from my memory
+of things my friends can't find and remind them about it. "yeah I saw your key under the books on your table" or
+something like that.  
+It is very frustrating, to be constantly looking for things. My friends who sometimes visit me tell
+me I am very organized (not true at all) after they have a look at my cupboard and my neatly arranged assortment of wires,
+batteries, gadgets, etc. This is only because I am constantly looking for them and honestly
+if I don't give them a home I will never find them. It's for my mental stability because it does not
+matter how many times I spot my scissors in a month, I can never find it when I actually need it.
+
+My family has always made fun of me for this, after they have expressed their disappointment. I have
+always lost something while traveling, especially something they got me _for traveling_. This time
+is no different. So far I have lost the following things:
+* My left earphone 
+* Bottle of lotion
+* Chapstick
+* Toothpaste (I bought it in Chennai and lost it before reaching home)
+* Charger for my watch (unconfirmed but likely)
+
+I don't know how I do this. I honestly check my bag 5 times before leaving. I was even notified
+that I have left my earphone, stopped driving while I was on my way to Chennai, unpacked and confirmed
+that I still have it; only to realies that the notification was for my left earphone after I reached my friend's
+home in Chennai. I really want to punch myself.
+
+{{< figure src="https://theblog-static.s3.ap-south-1.amazonaws.com/week11/browndoginpondi.JPG" alt="A dog playing with a plant" width="500px" attr="A dog I met in pondi, no relation with me losing things" align="center">}}
+
+> Hey, this is Anirudh from future for a post writing announcement.  
+I have found the charger after I finished writing this. Lucky me.
+
+### Being on the road and trusting terrible gear, Chennai and more
+Having bad, unreliable gear is worse than having no gear at all. The point of having any gear is to
+make life easy. To think that you can make do with subpar quality or makeshift arrangements is the biggest
+trap you can fall for. Imagine you want to hike. Fine no problem. Now if you are hiking you might
+want to camp as well. You start to plan and realize that to camp properly you will need to carry a lot
+of things: Food, water and warm blankets. You look at your shitty laptop bag and think yeah this will
+do, which is where things start to go wrong. To fit everything in you carry less food, less water and
+maybe no blankets. Now you are hungry, thirsty and cold. Next day you are annoyed because you
+did not have fun. Only if you had looked at your shitty bag and told yourself that camping is not possible with
+this, you would have had a great hike and come back home. Are you dead? No. Did you
+have fun? Lmaao.
+
+Trying to carry my luggage on my bike was more or less the same, I relied too much on my shitty bungee
+cords. I had enough time before leaving to get proper cables and brackets for this task but I fell for
+the trap. Most of the time while riding, I had to stop every few kilometers and adjust my cables
+because my bags would start hanging from one side. Things got out of place on the slightest bumps 
+and my shoes were all over the place because I did not think of packing them until I started my journey. 
+{{< figure src="https://theblog-static.s3.ap-south-1.amazonaws.com/week11/terriblegear.jpeg" alt="Image of luggage falling to one side of a bike" width="500px" attr="Pack falling off 20 minutes into the journey" align="center">}}
+
+Ropes snapped, and people on the road informed me that my shitty laptop bag is about to fall.
+Did my stuff truly ever fall off, not really, Was I driving peacefully knowing
+that my pack is secured and didn't have to stop every 10 kilometers to check if it is still in place?
+Lmaao, yeah sure.  
+I eventually got myself better cables and figured out how to place my bags so that they don't move.
+I learned three knots as well (finally!) which **REALLY** helped. I can't express enough how much and how
+quickly my life improved after learning a few basic knots, outside of riding as well. It was something
+I had wanted to learn for a while. [I am not a knot guy yet](https://allenpike.com/2025/getting-tied-up-knots), but
+I think I'll be soon enough.
+{{< figure src="https://theblog-static.s3.ap-south-1.amazonaws.com/week11/bettergear.jpeg" alt="A bike parked on the crub with mountains in tha back." width="500px" attr="Better cable management once i figured out how to tie everything down" align="center">}}
+ 
+Horrors of cable managements aside, being on the road was very satisfying. I have been
+asked if it gets boring. It does at times. Sometimes I see beautiful landscapes after long stretches
+of talking to myself (helps stay sane and awake). Witnessing them makes me feel it was all worth it,
+even if it was boring for a while. I sometimes (rarely) stopped and tried to soak them in but it gets
+really hot in riding gear if you are not actually riding and it's hard to enjoy them when the sun
+is slowly cooking you up so the stops were only a minute or two at most. (I also fear that some idiot will
+hit me if I stop for long which also contributed)
+
+{{< figure src="https://theblog-static.s3.ap-south-1.amazonaws.com/week11/remotehills.jpeg" alt="" width="500px" attr="" align="center">}}
+{{< figure src="https://theblog-static.s3.ap-south-1.amazonaws.com/week11/remotehillstwo.jpeg" alt="" width="500px" attr="" align="center">}}
+{{< figure src="https://theblog-static.s3.ap-south-1.amazonaws.com/week11/roadtoraipur.jpeg" alt="" width="500px" attr="" align="center">}}
+
+I spent one night in Chennai with a friend. He generously let me stay at his place. We briefly spoke 
+before I passed out due to exhaustion. When I woke up in the evening, we walked down to the beach near 
+his home and spent some time there. I am not a big beach person but I have realized that they are very 
+accessible places to wind down and find some peace time. I feel finding
+a place to relax in the city is impossible and you have to travel far from it but having a beach next
+to your home or in your city gives you a space to get away from all the hustle and bustle.  
+There we spoke how soulless metro cities feel. Concrete monoliths scattered around you, one no different
+than the other. In beaches you can easily forget those monoliths exist. You see people do normal things.
+Sit, walk, play, sing, swim. Having fun in their own ways with their families. A sight I rarely get
+to see in Bangalore. I would have stayed in Chennai longer but my plan required me to be on the road
+again the next day and reach Ongole.
+
+I stayed for a couple of days in Ongole with my friend's family. It was a nice time, though slightly unfortunate
+because I could not speak much to them. They understood some Hindi and I understand no Telgu. I wanted
+to talk to them about many things but it was difficult to explain my thoughts. Regardless, I felt at home.
+I ate a healthy amount of dosas, idlis and vadas during my stay and thoroughly went through childhood
+pictures of my friend.
+
+My only regret is not staying at these places longer, I would have loved to explore Chennai and places
+around it. I will consider not cramming so many things in a week again for my sanity but I am
+a terrible planner.
+
+On my last two days of riding I traveled through some of the very remote areas of southern Chhattisgarh. It
+was beautiful and a little scary at the same time. The region is knows as the "[red corridor](https://en.wikipedia.org/wiki/Red_corridor)" because of
+high naxal activities and though I was not really worried about it, I had no network for about two
+hours in that region which heightened the sense of things going wrong. Nothing happened though, the
+worst thing was the road which really did a number on my back.
+{{< figure src="https://theblog-static.s3.ap-south-1.amazonaws.com/week11/bridgeinbastar.jpeg" alt="A bridge with tress on both sides" width="500px" attr="Forests of bastar where I had no network" align="center">}}
+{{< figure src="https://theblog-static.s3.ap-south-1.amazonaws.com/week11/terribleroads.jpeg" alt="A broken road in the forest covered in mud" width="500px" attr="Not all roads were great" align="center">}}
+
+### Diwali and Home
+After eight days of riding, I reached home just in time for Diwali. I had stayed back 
+a couple of times (once in Delhi and once in Bangalore) during the holidays since 2022 but now I
+think that it's not worth to skip over [family time](/post/week4/#rakhi-time). The opportunity
+to visit comes only once or twice every year and I have felt guilty for passing up on it in the past. 
+
+Luckily, this time my cousins also came home which made it even better. They are really funny,
+catching up with them and retelling stupid stories of each from our childhood is something that I had
+missed. I even drove to two different cities (not very far though) and dragged my sisters back home. 
+Not a problem since all of us are more or less unemployed at the moment but it still required some convincing. 
+I spent my time here cooking with my mother, driving around with my cousins and catching up with a 
+few old friends from school, though that didn't go as expected.  
+
+I think all of us (my friends and I), living in different places, have reached that point
+where it's difficult to relate with each other. We are still very good friends but I think they don't really
+understand things I talk about and I don't understand what they talk about. I wish it was not like that but I guess
+there is not much one can do. I think it's also the fact that you can't really relate and catch up
+with your friends in an hour once every year. lmao. Anyway, meeting them is still better than not meeting
+them and they made me laugh **a lot**. I really wish I had more time to spend with them.
+
+---
+#### Post publishing edits
+I have been informed that my post had typos. Below are all the edits:
+```
+* Fixed: louts to lotus 
+* Capitalized: `C` of chapstick 
+* Added: `Toothpaste` to list of lost items
+* Removed: `'` from `want` in the line `Imagine you want to hike.`
+* Fixed: `I did no think of packing them` to `I did not think of packing them`
+* Fixed: `realise` to `realized` 
+* Fixed: `A sight a rarely get to see in Bangalore.` to `A sight I rarely get to see in Bangalore.`
+* Fixed: `I would    have loved to explore Chennai and places around around it.` to `I would have loved to explore Chennai and places around it.`
+* Fixed: Chhattisghar to Chhattisgarh
+* Fixed: hightened to heightened
+```

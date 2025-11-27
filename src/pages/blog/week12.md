@@ -1,0 +1,99 @@
+---
+layout: '../../layouts/BlogPost.astro'
+title:  'I am doing this solely based on vibes'
+pubDate: 2025-11-19T23:30:00+05:30
+description: 'I have been travelling a lot'
+image:
+    url: 'https://theblog-static.s3.ap-south-1.amazonaws.com/week12/kolkata_cover.jpeg'
+    alt: ''
+tags: ["travel", "personal"]
+week: Week 12
+summary: 'I had planned the end of my year very sloppily. There were a few things that I had wanted to achieve by December though I had not given much thought to the process of doing it.'
+---
+I had planned the end of my year very sloppily. There were a few things that I had wanted to achieve by December though I had not given much thought to the process of doing it. Just that it would be great to have done them. Nevertheless that thoughtless plan looked very different from where I am right now. After a glimpse at my "TODO list", I feel that I am far from
+achieving most of what I wanted to and some of it, I don't even care about doing anymore. Instead, I tried something that was not even a *background thought* at the start of this year but in the last few months, it was in the limelight more and more. I chose to throw all of my plans in the bin and started travelling.  
+
+I am not a backpacker, nor am I a traveller. I did not know what I was doing I just wanted to step out. I am glad I did. For the last 50-ish days, it has been a surreal experience, day after day. From stories that I got to hear from people I'll never see again to places which made me feel that I should not waste any time not looking at them. It has been fun, confusing, adventurous, tiring all at once. I'll do my best to write about it but I am lazy and running a blog actually takes a lot of time.
+![Hills of Meghalaya](https://theblog-static.s3.ap-south-1.amazonaws.com/week12/pemd_falls.jpeg)
+
+### Endless Vibes
+I have never been anywhere east of Chhattisgarh in the world. Well sure, you can tell me that if I keep going east I'll eventually reach places that I have been to but that will be the test of my patience with you. Moving past the ambiguity of directions in the way we speak, I really haven't travelled anywhere that is east of my home. I have always wanted to visit Kolkata ever since I was small. The city has forever fascinated me through the pictures I saw in books and it's colonial history that I learnt about. 
+
+![First thing I noticed was how many people were on cycles. From kids going to school to people going to work](https://theblog-static.s3.ap-south-1.amazonaws.com/week12/Kolkata_cycle.jpeg)
+
+It's not a glamorous place, being there confirmed it. Still, I have wanted to visit it and see the Tram and the Victoria Memorial. One of those wishes remains unfulfilled
+but I still enjoyed being there. It really feels like going back in time. The buildings look so old and fragile, as if the walls would crumble if I were to touch them or that I might get an ancient disease from the moss that now covers most of it. The old wooden windows, so washed up by sun and rain that it's hard to imagine they ever looked good, yet so embellished that they must have lent some elegance to the building once. Everyone rode a bicycle. I had not seen so many of them at once in a place. I heard Bengali songs from shops that looked as old as the songs were. Alleyways so narrow that you would not think anyone lives on the other end yet it opens up to a huddle of houses (yes, I looked it up it is called a huddle)
+
+![Aged building near college street. Everything looked ancient but still had people living in them.](https://theblog-static.s3.ap-south-1.amazonaws.com/week12/old_building_kolkata.jpeg)
+![Kolkata has the oldest metro which was evident by its metallic interior](https://theblog-static.s3.ap-south-1.amazonaws.com/week12/metro_interior.jpeg)
+
+I stayed at DD's home during my time in the city. I don't think I have eaten as many sweets within a couple of days as I did at his home. I am not complaining. I would love more but there is only so many I can stuff inside me and at one point it becomes embarrassing to ask for more. I talked plenty with his parents. Learnt of many embarrassing stories of him and took pictures of his childhood pictures.  
+![Even the breakfast comes with sweets, life is good.](https://theblog-static.s3.ap-south-1.amazonaws.com/week12/kolkata_breakfast.jpeg)
+Obviously talked about politics and my future plans, two things I don't know much about. The latter is a conversation I had with almost everyone once they learnt that I quit my job and now I'm travelling. Almost all of them also told me in some form or another that what I am doing is good. I always replied with "I don't know what I am doing". Almost all of them also asked if I vlog and I have never been able to tell if they are happy or disappointed knowing that I don't. They always say "Oh" in a manner that's hard to decipher.
+
+Anyway, I met with Valkyrie [(diyaankitax3)](https://www.instagram.com/diyaankitax3/) as well during the two days I was in Kolkata. A very old friend who I had never met and it's hard to explain why we are even friends. "We should meet once" was something both of us said in passing — never really serious about it. (AI did not add the — it was me). I was worried that it will be awkward to meet her but to my surprise it was one of the most fun things I did during travelling. We made each other walk endlessly while making silly jokes and laughing at them. Visited bookshops in park street and college street. Talked about really depressing things and ate a very expensive meal of mutton after it had gone cold because she would not stop yapping about her college. I visited almost everything I visited in Kolkata with her. I mean she was my tour guide and then had the audacity to say that I went to all the stupid places (that she took me to) and if "it was up to her she would have shown me better things". At that point I can only apologize.
+![A display of matches I saw with Valkyrie in the National Museum](https://theblog-static.s3.ap-south-1.amazonaws.com/week12/exhibit_matches.jpeg)
+
+### Siliguri and the real struggle
+I hopped on a train to Siliguri after a few days which I almost missed. Note to self, if possible avoid travelling early in the morning. I barely slept before catching the train. Siliguri was the most unnecessary place I visited during my entire trip. There was actually nothing to do there. I was told I have to go through that place if I want to get to Guwahati and I thought it is a small beautiful town like Darjeeling which could be fun to explore. Not only I didn't need to stop there, it's not a beautiful town like Darjeeling at all. It's more akin to Bangalore only smaller and without any of the shiny places that hide how dirty Bangalore actually is.  
+I found the cheapest room available because I thought that I only need to be here for a night and it won't matter. I also wanted to try staying at a place like that once so I was convinced. Worst decision. I think at a point you should tell yourself maybe this is too cheap for your own good. It looked like something shady was going inside the building. There were only 3 people including me and no one spoke to each other. Not a word. I tried making conversation and all I got was "hmms" and "umms".
+It was like being with [my roomate all over again](/post/week1/#breaking-bad), after which I decided to throw my bags and just go out. I decided it's better to explore the dead city than be in this place.  
+I walked around and asked people for lifts till I reached the market where I spent the evening eating momos until it was time to sleep and then I headed back to the weird place. I was half expecting my things to have disappeared but everything was in its place which I honestly think is weird. I would have been less surprised if something was missing.
+![There is a place called momo gali. It only had one shop. Either I was at the wrong place or someone can't name things well](https://theblog-static.s3.ap-south-1.amazonaws.com/week12/siliguri_momo.jpeg)
+
+I could not sleep at all though. I really tried but I kept thinking someone will try to smother me with the dirty pillow that has a weird stain on it. I don't want any pillows on my face especially a dirty one. I just looked at my phone till it was time to leave, early in the morning again.  
+![The common room of the place where I was staying](https://theblog-static.s3.ap-south-1.amazonaws.com/week12/siliguri_room.jpeg)
+It was raining heavily when I stepped out which was the final nail in the coffin for me. I don't think I have anything good to say about Siliguri. 
+I boarded my train and sat next to a Mizo woman. She was one of the kindest people I have met on my trip. We could barely understand each other. She spoke very little English (this happened a lot during the rest of my trip as well, some of the nicest people I met were the ones I could not talk to at all). She tried to know about me but I don't think I made much sense to her. She kept offering me her food because I did not book any meals and she was worried I'll be hungry. I tried to convince her that it is not necessary but she refused in the most polite way by offering it to me again every 5 minutes. I finally accepted. When we were finally in Guwahati, she tried lifting my rucksack, it moved maybe a centimetre before she gave up although I feel she barely tried. I just smiled at her, I had become a zombie by that point because of two sleepless and foodless nights. Momos don't really keep you filled for long. We shook hands and said safe travels before going our ways. 
+
+### Meghalaya at last
+From Guwahati, I got on a shared cab to Shillong. The moment I stepped away from the Mizo woman I was roped in by a guy to go to Shillong in a shared cab
+and I agreed. From the window of my cab I kept looking outside, I could not believe it that I finally made it so far. Exactly a month ago I was on a terrible
+bus to Goa with my friends and now I was on the opposite side of the country in a cab with strangers. I had no plans for Meghalaya. I knew a few places that I
+had to visit no matter what but I did not know how I'll reach there.  
+During my stay in Cherrapunji I met with a woman who was quite
+opposite of this, planned meticulously and gathered all the information she could about the place she was visiting. Although from my one experience with her
+it didn't matter because the plan failed spectacularly, though through no fault of her.
+
+A guy in my cab was from Shillong and he showed me pictures of the places he had visited which made
+me more excited and as we got closer it was at its peak until I fell asleep. I don't know when or how I dozed off. At one moment I was enjoying the views
+from the cab of the lush mountains covered in fog and next I was waking up in Shillong.  
+
+I was going through the inertia of
+waking after you sleep in the evening but we had already reached Shillong and the driver asked me to step out. He told me this is the furthest
+he can take me and that I need to find another cab. I tried to hitchhike to my hostel but it was so far that no one agreed. A cab driver
+took pity on me and offered to take me at a lower price. I had to agree because it was completely dark by now although it was only 4:30 and I was desperate
+for a bed to pass out on. Once I reached I met with Josh and Yo. They ran the hostel and were very friendly. Josh is so full of energy all the time, 
+it's amazing. I think I lost a little bit of my sleep after talking to him. 
+
+![Chowmein in Meghalaya is soupy](https://theblog-static.s3.ap-south-1.amazonaws.com/week12/shillong_chwomein.jpeg)
+I devoured a big bowl of noodles after talking to him, there was a small
+place right next to the hostel which looked like it had great food. Anyway I was so hungry that salted rocks would have tasted good.
+Once I got back Josh hooked me up with another solo traveller for the next day because he did not have a plan but a bike
+and I had some plan and no bike so for Josh it was a match made in heaven. After that I passed out.
+
+### Is that it?
+I'll be writing more in the next entry as an extension to this one. I fear it will get too long if I write
+everything at once, for me if not for the ones reading. 
+
+I skip over a lot, it's tedious to write. 
+While I was travelling
+a few people asked me what my blog is even about or why I even write. It's a difficult question to
+answer. The Blog is not me, nor am I what I write here. I have thought about it but there is no good
+answer. There is a lot that I skip over and at the same time there is a lot
+of detail that I add about things that in my memory were not that impactful. It is mostly guided by
+how I am feeling and what I choose to remember once I sit down to write.  
+
+A friend that I made while
+traveling said that he does not understand why I would write. He said it's better to leave things
+up to interpretation, that's how art should be. An artist should not explain his art, and by writing
+I remove the aspect of interpretation. I don't, partly or wholly, agree with that. As humans, we love sharing. To talk to one another
+is a part of documentation that humans have created. We truly experience something once we talk about
+it to others and feel it again through their expressions and thoughts and reactions. I believe we, as humans, will
+forget about an experience, no matter how great, unless we share it with someone. I think art is just
+an extension of that idea. A form of expression instead of talking, and most artists will happily explain their art. On the other hand I am not making
+art, I write silly blogs about things I choose to remember and I make a terrible attempt at trying to
+explain how I felt at the moment. I am documenting this for myself.
+
+#### MOW
+{{< spotify type="track" id="0ir8h6HSxpbCgAlfv1RKPb" width="100%" height="200" >}}

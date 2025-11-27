@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "Caslonia";
+    src: url("/src/static/fonts/Caslonia-Regular.otf") format("opentype");
+}
+
+
+.newspaper {
+    /* border: 2px solid red; */
+    background-color: #f9f7f1;
+    color: #2f2f2f;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.ns-header {
+    text-align: center;
+    font-family: 'Caslonia', serif;
+    font-size: 5rem;
+    
+    /* margin-bottom: 0.2em; */
+}
+
+.ns-subhead {
+    font-family: "Libre Caslon Text", serif;
+    text-align: center;
+    border-top: 2px solid #2f2f2f;
+    border-bottom: 2px solid #2f2f2f;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.2rem;
+}
+
+.ns-subhead p {
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    max-height: 100%;
+    overflow: hidden;
+    margin-bottom: 0.2rem;
+}
+
+
+.collumns {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+
+.collumns:nth-child(even) {
+    flex: 2;
+}
+
+
+
+.ns-side-content {
+   text-align: justify;
+   font-size: small;
+   font-family: 'Droid Serif', serif;
+}
+
+.ns-side-content:nth-child(even) {
+    width: 80%;
+    font-size: small;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.ns-side-content.right {
+    direction: rtl;
+}
+.ns-side-content.right:nth-child(even) {
+    margin-left: auto;
+}
+
+.ns-main-body h3{
+    font-family: 'Caslonia';
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 0;
+    /* font-style: italic; */
+    margin-bottom: 1rem;
+}
+
+.ns-main-body h3::after{
+    border-bottom: 1px solid #2f2f2f;
+    content: '';
+    width: 300px;
+    height: 7px;
+    display: block;
+    margin: 0 auto;
+}
+
+.ns-main-body p {
+    text-align: center;
+    font-family: 'Droid Serif', serif;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.ns-main-body p::first-letter {
+    font-style: italic;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.ns-main-body img {
+    margin-bottom: auto;
+    display: block;
+    margin-inline: auto;
+    max-width: 60%;
+    max-height: 50%;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    border-radius: 2rem;
+
+
+}
+
+.ns-main-body a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.ns-main-body a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.ns-main-body a:hover {
+    color: black;
+}

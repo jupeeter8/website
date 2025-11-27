@@ -1,0 +1,9 @@
+---
+import Nav from "./Nav.astro";
+const {pageTitle, paragrah} = Astro.props;
+---
+<header>
+    <h1>{pageTitle}</h1>
+    {paragrah && <p>On the web since 2009. Programmer, OSS Enthusiat, Traveller, Human.</p>}
+    <Nav/>
+</header>

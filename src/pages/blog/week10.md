@@ -1,0 +1,181 @@
++++
+title = 'Block that time ty'
+date = 2025-10-14T01:03:23+05:30
+draft = false
+[cover]
+    image = "https://theblog-static.s3.ap-south-1.amazonaws.com/week10/ruins_2.jpeg"
++++
+
+
+## Week 10, Oct 2025
+Happy spooktober everyone. Hoping your entire month is spooky and full of calcium. I was complaining
+to myself how I have not traveled much around Bangalore the time I was starting this blog. Now,
+after 3 months, I have left Bangalore for the time being and I'm traveling for the next few weeks.
+_Manifestation_.  
+I went to Mysore that time, after complaining to myself, but that was a cope while this is freedom.
+Since then _**A lot**_ has changed for me, or maybe I have changed and everything else has remained
+the same but I feel like I am a very different person looking back just six months ago. I am glad
+though, at least I feel happier. Everyone I talk to tells me what I am doing is great. I like believing
+in that but honestly I am just scared of what I am doing. My last words to Roommate were "the only
+thing I am guilty of is having fun" after he basically told me that my biking setup looks stupid.
+
+### Third time is the charm
+I went to Goa again during the first week of october. It was a long weekend and JFK and I had 
+thought about doing a trip for a long time. This was my third time visiting it and every time
+I go back to that place I end up having more fun. I don't think it's the company.
+I think it is just me learning to let loose. I am caught up in my own thoughts most of the time
+worrying about things that don't matter, or won't matter after a while. This time Goa for me was
+"brain off" mode as Roommate called it. I didn't try to stick to a plan. I did not wake up my friends
+at 7 in the morning after long nights of alcohol poisoning. I even agreed to go to a rave party 
+and actually had fun lmao.
+
+Our bus for had a rating of 1.5/5 stars and we reached terribly late. Five hours after boarding the bus
+we were still in Bangalore. No wonder the rating is so low since you are supposed to be halfway to Goa
+in 5 hours while we were 30 mins away from my home. The bus itself was funny. The conductor, who I 
+truly believe should be in school (either his puberty is late like the bus or he was actually 15 which is worse), 
+did not have any clue about what is going on and every one who boarded had to wait form him to figure out 
+their seat. A dude sat with the driver all the way. This is what you get for booking late on a long weekend. 
+Anyway we reached Goa, late but here are and we are here to party (I'll end up regretting this). 
+Beer did not leave our side the entire trip. Shortly after reaching till boarding the bus back to 
+Bangalore I was drinking beer. If we were not commuting or sleeping, we were drinking beer. I always
+joked that I'll drink more beer than water once I am in Goa but looking at the colour of my piss after
+the first day it actually might have been true this time.
+{{< figure src="https://theblog-static.s3.ap-south-1.amazonaws.com/week10/ruins.jpeg" alt="" width="500px" attr="Exploring Goa on 2nd Oct, found a ruins" align="center">}}
+
+Only exception was the second day of the trip, 2nd of Oct. Gandhi Jayanti, in light of which we stocked up some alc
+that we decided to drink at the beach. It was really fun. I am sure the alcohol was making me enjoy everything a
+little more but I would I have had a great time even without it. Drunk, I stood the shore for a very long time,
+just looking at the waves and feeling the sand drift away under my feet. That was probably the most
+peaceful I have felt in a very very long time. I wasn't even thinking about anything. I really felt
+I had nothing to go back to. Of course we still had the alcohol and my friends called me
+to have the last round. After that I fucking died. The Universe `rm -rf`'ed me for two hours. Normally
+I would have been annoyed at myself for doing this but I am in brain off mode. We are here to party
+and it's fine if I get wasted once every year (more or less)  
+{{< figure src="https://theblog-static.s3.ap-south-1.amazonaws.com/week10/goa_pool.jpeg" alt="" width="500px" attr="Chilling at a pool after getting wasted at the beach previous night" align="center">}}
+
+I reluctantly went to a rave party as well the next day. every time I played GTA V I thought that the devs were lazy
+and they didn't code the dancers in clubs in that game very well since they all looked like zombies. 
+Being at that party I realized that people actually dance like zombies and the devs copied it
+exactly in the game. Everyone in that party looked like an NPC. I was truly amused.
+{{< figure src="https://theblog-static.s3.ap-south-1.amazonaws.com/week10/rave.jpeg" alt="" width="500px" attr="Rave" align="center">}}
+
+### All things bacon
+When I was leaving for Goa, Roommate told me that I must join him for breakfast at
+[Maverick and Farmer](https://maps.app.goo.gl/P3xDYdce7uxEjxdD8), Ulsoor. "Block that time ty" I was told. I think he just wanted to properly
+spend time before I left on my epic (epicness yet to be determined) journey. I agreed since I wanted
+to properly spend time with him before I left even if he did not. I was worried about the logistics but it all
+worked out well, I asked him if he is up for it the moment I was back in Bangalore and everything was
+decided even before i reached home. We arrived a the place and I decided to have his favourite breakfast, All things
+bacon. We sat on seats overlooking a football field where a practice session was going on. Caught each
+other up to speed and talked about the food, sports, school and public transport in Bangalore. I always enjoy speaking to
+him, I really get to hear his opinion on things and it's always interesting.
+
+### Tree time, again
+[I'll have to eat my words](/post/week9/#more-catching-up). I caught up with Tree again. She 
+asked me if I could hangout and seeing how I'll be unemployed in the next two days and out of 
+Bangalore on the third one, I had no reason to say no. I told her about my Goa trip and heard about 
+her trip to Delhi.  
+Bro is crazy. Since I last met her couple weeks ago she has had 
+arguments with 3 people lmao. I don't know how she does it and how I have managed to avoid it for so long. 
+I invited myself to her place that night to "indulge in experiences". She invited some of her 
+friends over as well. It was a fun night It felt like I was hanging out with my school friends. 
+At that time I was just thinking how far we have come, form being in the same school to being 
+friends in Kota and now I am hanging out with her at an apartment that she pays rent for (well she technically didn't pay rent for that apartment but let's just continue with the narrative). 
+It's strange and fun at the same time. So much has changed and I am somehow friends with this girl
+who has arguments for breakfast according to her. She did yell at me for walking too fast the last time
+I saw her.
+
+### Last working day.
+It was fun. I will really miss some of the people from that place, friends or not. I spent most of the day
+just saying bye to people. I wasn't expecting anything for my farewell. I was just happy leaving the place
+but lmao my friends were planning something under my nose and I did not even have a clue. I was surprised
+by a small farewell ceremony (it was too formal to call it anything else). My friends said kind words
+awkwardly that I did not know how to respond to but I am really grateful. Means a lot to me. JFK was asking
+me if I would like to go out. I chose to chill at home. Going out is too much effort. AK-47 said he has
+to meet his childhood crush and that he will join us in a while which amused me very much.  
+{{< figure src="https://theblog-static.s3.ap-south-1.amazonaws.com/week10/farewell_cake.jpeg" alt="" width="500px" attr="Farewell cake and messages, like always picture taken after eating the thing" align="center">}}
+Mf bamboozled me. He was out shopping for gifts that they all (DD, JFK, AK-47 and Champion) planned to
+get me. This is beyond my wildest imaginations. I actually wasn't expecting anything. Not because they
+are bad friends, but because they are such good friends that just having them around is more than enough.  
+Because of them I am now a proud owner of riding boots, which I had wanted before starting my
+travel but decided not to get. On top of that a vinyl record of one of my [favourite albums](https://www.youtube.com/playlist?list=PLO0OZMXDb6T5_gckJ3mziyyh6aNsiAgce) from my
+currently favourite band. The latter was actually too much. Genuinely surprised me. I could not even 
+believe that someone in Bangalore had that record and AK-47 actually found it. I just have to buy
+a record player now. Can't wait to be back and own one so that I can blast some tunes. I have lost my earphones
+so this is a great substitute.
+{{< figure src="https://theblog-static.s3.ap-south-1.amazonaws.com/week10/record.jpeg" alt="" width="500px" attr="The Record, boots in background" align="center">}}
+
+### Yatra
+I wish I had stayed in Bangalore for a while after my premature retirement but I left the very next
+day for traveling. It was also the only way for me to reach home in time for Diwali if I wanted to
+do this on my bike. I reached Pondicherry sometime in the afternoon of 9th. Zostel had messed up my
+booking so I had to figure that for a while but eventually I was given a room.  
+I saw two towels hanging on two separate beds when I entered my room. Looking at them I could tell that I
+definatley had a guy as a roommate and the other one most likely belonged to a woman. It's weird how
+I have started associating genders to the types of towels but its real. Girls and twinks really do 
+use very distinct towels from guys. They were no where to be seen though so I left to explore by myself. By
+this point I was doubting myself that doing a solo trip was a bad idea (9 hours into the whole thing lmao)
+but it was fun. Pondi has some really dull beaches and streets to walk around but they were still
+peaceful and that was the only thing that really mattered. At least they had a soul unlike "gram-able"
+places of Bangalore.
+
+When I got back I met with the guy, Shashi (I was right about the towel). He was also traveling after leaving his job but he
+won't be unemployed like me. I also met with the girl, Anmol (I was right about the towel) after a little while. Very
+interesting person. I think I talked to her the most during my entire stay. Her and the guy at the zostel
+reception who messed up my booking. Well tbh she mostly talked and I mostly listened but that's awesome
+because she really had some interesting stories and funny opinions. I spent most of my time with these
+two people during my stay. We went for pizza night on our last night in Pondi. Roomate had asked 
+me a few times what would and alcohol free party look like to me since most people just get wasted when 
+they say they are partying. I can do it very easily but I had never actually been to one. I wanted
+to show him this place, where people from so many different walks of life have come to just chill, 
+have pizza, talk to each other without any intentions and be themselves without a drop of beer, though I
+don't know if some of them were already tripping. I really liked that about Auroville. People just
+chilling and doing chill things like living in a forest. For them it had meaning, I was just a tourist lmao.
+It felt like a borderline cult tbh but it's okay. I'll give it a pass for now. It passed the vibe check
+{{< figure src="https://theblog-static.s3.ap-south-1.amazonaws.com/week10/pizza_night.jpeg" alt="" width="500px" attr="Pizza Night" align="center">}}
+{{< figure src="https://theblog-static.s3.ap-south-1.amazonaws.com/week10/dog_pondi.jpeg" alt="" width="500px" attr="Dog at pizza night" align="center">}}
+
+I also briefly met a couple at a place Shashi took me for dinner. His "spot". Very interesting people
+lmao. The girl told me I should get high and visit the sound experience thing in Auroville lol. Next time 
+maybe but really sweet and fun people. Talking to them for those 15 minutes was amazing. I would have
+explained here what we talked about but I feel that will fucking boring to read and it's only interesting to me
+but yeah, it's really amazing how you can meet someone and be friends for a day or two, as long as
+you are in the same place and go separate ways after that. I had never experienced that before.
+I was told to keep in touch but I kind suck at it. We will see.  
+{{< figure src="https://theblog-static.s3.ap-south-1.amazonaws.com/week10/thespot.jpeg" alt="" width="500px" attr="The spot" align="center">}}
+
+I made sure to lose my earphones and have breakfast at [Marc's](https://maps.app.goo.gl/8SrsPe76A6mPYvn48) before I left Pondi. It is impossible
+for me to do a trip without losing something and having good coffee. I saved both of them for the last
+day. I caught up with Anmol one last time there. Talking to her is like talking to Roommate but
+instead of computers, walkability, and public transport in Bangalore we talked about traveling, coffee,
+future plans and public transport in Mumbai.
+
+### MOW
+{{< spotify type="track" id="7AvuIMRKdo5RvS6YIzXjsj" width="100%" height="200" >}}
+
+### Next up
+I am currently in Ongole, lovely little place in Andhra. I am spending my next few days looking at 
+cows and tobacco plantation. I was in Chennai the day before (12/10/2025)
+mostly resting and chilling with a friend. There is a lot that I have skipped over, from Goa, farewell and even
+pondi. I'll try to write more in the coming posts, though it maybe a while before I write again. I have written
+this one over multiple days and across multiple sessions and I think I'll only procrastinate more until
+I am done with traveling.
+
+{{< figure src="https://theblog-static.s3.ap-south-1.amazonaws.com/week10/ongole.jpeg" alt="" width="500px" attr="Biking to Ongole" align="center">}}
+
+I plan to reach home by 17th and spend some time with my family for Diwali. After that I'll be starting the
+second leg of my journey, Traveling in Kokalta and Meghalya mostly. I have not decided what I'll
+be doing after that.  
+I am also working on a newsletter so people can subscribe to it for blog updates. I know
+only 3 people use the RSS feed by looking at the nginx logs. I'll share the details with the next post hopefully.
+Happy Diwali until then.
+
+### Misc Pictures
+
+{{< figure src="https://theblog-static.s3.ap-south-1.amazonaws.com/week10/art_gallery.jpeg" alt="" width="500px" attr="Visited an art gallery in Auroville" align="center">}}
+{{< figure src="https://theblog-static.s3.ap-south-1.amazonaws.com/week10/zostel_cats_2.jpeg" alt="" width="500px" attr="Cat in Pondi Hostel" align="center">}}
+{{< figure src="https://theblog-static.s3.ap-south-1.amazonaws.com/week10/goa_cat.jpeg" alt="" width="500px" attr="Cat in Goa" align="center">}}
+{{< figure src="https://theblog-static.s3.ap-south-1.amazonaws.com/week10/cat_pondi_2.jpeg" alt="" width="500px" attr="Another cat in pondi" align="center">}}
+
+#### P.S
+I was too lazy to fix and edit the errors.  
