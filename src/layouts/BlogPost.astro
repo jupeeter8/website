@@ -17,24 +17,26 @@ const month = pubTime.toDateString();
         <title>{frontmatter.title}</title>
     </head>
     <body>
-        <Header pageTitle="The Blog" paragraph={paragrap} />
-        <p class="entry-desc">{frontmatter.description}</p>
-        <img
-            class="title-img"
-            src={frontmatter.image.url}
-            width="300"
-            alt={frontmatter.image.alt}
-        />
-        <section class="blog-body">
-            <h1 class="entry-title">{frontmatter.title}</h1>
-            <div class="blog-header">
-                <ul>
-                    <li>{frontmatter.week}</li>
-                    <li>{month}</li>
-                    <li class="right">{frontmatter.tags[0]}</li>
-                </ul>
-            </div>
-            <slot />
-        </section>
+        <main>
+            <Header pageTitle="The Blog" paragraph={paragrap} />
+            <p class="entry-desc">{frontmatter.description}</p>
+            <img
+                class="title-img"
+                src={frontmatter.image.url}
+                width="300"
+                alt={frontmatter.image.alt}
+            />
+            <section class="blog-body">
+                <h1 class="entry-title">{frontmatter.title}</h1>
+                <div class="blog-header">
+                    <ul>
+                        <li>{frontmatter.week}</li>
+                        <li>{month}</li>
+                        <li class="right">{frontmatter.tags[0]}</li>
+                    </ul>
+                </div>
+                <slot />
+            </section>
+        </main>
     </body>
 </html>

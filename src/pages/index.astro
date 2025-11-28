@@ -1,38 +1,28 @@
 ---
-import Newspaper from '../components/Newspaper.astro';
-import Header from '../components/Header.astro';
-import '../styles/globals.css';
+import PageLayout from "../layouts/PageLayout.astro";
+import Newspaper from "../components/Newspaper.astro";
+import Header from "../components/Header.astro";
+import "../styles/globals.css";
 const pageTitle = "Anirudh Aswal";
+const tabTitle = "Home"
 const paragraph = true;
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<main>
-			<Header pageTitle={pageTitle} paragraph={paragraph}/>
-			<div class="home-body">
-				<section class="content-body">
-					<article class="content-layout">
-						<h2><mark>I write,</mark> not very well</h2>
-						<p>
-							I have recently started writing blogs. Social media
-							is convinitent in staying connected. Unfortunately
-							for me, I can not look past the algorithm driven
-							content machines they are. Blogs seem simpler. Old
-							school, ad & algorithm free and created by a human,
-							No AIs were abused in making of these blogs.
-						</p>
-					</article>
-					<Newspaper/>
-				</section>
-			</div>
-		</main>
-	</body>
-</html>
+<PageLayout pageTitle={pageTitle} paragraph={paragraph} tabTitle={tabTitle}>
+	<div class="home-body">
+		<section class="content-body">
+			<article class="content-layout">
+				<h2><mark>I write,</mark> not very well</h2>
+				<p>
+					I have recently started writing blogs. Social media is
+					convinitent in staying connected. Unfortunately for me, I
+					can not look past the algorithm driven content machines they
+					are. Blogs seem simpler. Old school, ad & algorithm free and
+					created by a human, No AIs were abused in making of these
+					blogs.
+				</p>
+			</article>
+			<Newspaper />
+		</section>
+	</div>
+</PageLayout>

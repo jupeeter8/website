@@ -3,6 +3,15 @@
     font-family: "Caslonia";
     src: url("/src/static/fonts/Caslonia-Regular.otf") format("opentype");
 }
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
 body {
     font-family: "Lato", sans-serif;
     max-width: 50%;
