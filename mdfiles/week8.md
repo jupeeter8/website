@@ -1,23 +1,11 @@
-+++
-title = "Once you do something, you never forget. Even if you can't remember."
-date = 2025-09-22T23:20:11+05:30
-draft = false
-customCSS = """
-.post-single .entry-cover img {
-    height: 30em;
-    width: 100%;
-    object-fit: cover;
-}
-.post-title {
-  font-family: "Ledger", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-"""
-[cover]
-    image = "https://theblog-static.s3.ap-south-1.amazonaws.com/week8/roddent.jpg"
-    caption = "Rodent by [@diyaankitax3](https://www.instagram.com/diyaankitax3)"
-+++
+---
+title: "Once you do something, you never forget. Even if you can't remember."
+pubDate: 2025-09-22T23:20:11+05:30
+draft: false
+image: 
+  url: "https://theblog-static.s3.ap-south-1.amazonaws.com/week8/roddent.jpg"
+  alt: "Rodent by [@diyaankitax3](https://www.instagram.com/diyaankitax3)"
+---
 
 ## Week 8, Sep 2025
 ### Slower Pace

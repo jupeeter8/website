@@ -1,10 +1,10 @@
-+++
-title = 'Last day of school'
-date = 2025-09-29T07:18:12+05:30
-draft = false
-[cover]
-    image="https://theblog-static.s3.ap-south-1.amazonaws.com/week9/week9_cover.jpg"
-+++
+---
+title: 'Last day of school'
+pubDate: 2025-09-29T07:18:12+05:30
+draft: false
+image: 
+  url: "https://theblog-static.s3.ap-south-1.amazonaws.com/week9/week9_cover.jpg"
+---
 
 ## Week 9, Sep 2025
 My time as an employed citizen has come almost to an end. Nine day from now I'll become useless to

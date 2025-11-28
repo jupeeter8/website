@@ -1,0 +1,12 @@
+---
+const pageTitle = "The Blog";
+import PageLayout from "../layouts/PageLayout.astro"
+import BlogPostCard from "../components/BlogPostCard.astro"
+import { getCollection } from "astro:content";
+const tabTitle = "Blog";
+const paragraph = false;
+const allPosts = await getCollection('blog')
+---
+<PageLayout pageTitle={pageTitle} tabTitle={tabTitle} paragraph={paragraph}>
+    <BlogPostCard allPosts={allPosts} />
+</PageLayout>

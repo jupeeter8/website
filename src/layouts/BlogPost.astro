@@ -6,6 +6,14 @@ const { frontmatter } = Astro.props;
 const paragrap = false;
 const pubTime = new Date(frontmatter.pubDate);
 const month = pubTime.toDateString();
+let tag
+if (frontmatter.tags  == null) {
+    tag = null
+} else {
+    tag = frontmatter.tags[0]
+}
+let blogMeta = [frontmatter.week, month, tag]
+blogMeta = blogMeta.filter(x => !!x)
 ---
 
 <html>
@@ -16,23 +24,25 @@ const month = pubTime.toDateString();
         <meta name="generator" content={Astro.generator} />
         <title>{frontmatter.title}</title>
     </head>
-    <body>
+    <body class="blog">
         <main>
             <Header pageTitle="The Blog" paragraph={paragrap} />
             <p class="entry-desc">{frontmatter.description}</p>
-            <img
-                class="title-img"
-                src={frontmatter.image.url}
-                width="300"
-                alt={frontmatter.image.alt}
-            />
-            <section class="blog-body">
+            {
+                frontmatter.image && (
+                    <img
+                        class="title-img"
+                        src={frontmatter.image.url}
+                        width="300"
+                        alt={frontmatter.image.alt}
+                    />
+                )
+            }
+            <section class="blog-body" id="blog-body">
                 <h1 class="entry-title">{frontmatter.title}</h1>
                 <div class="blog-header">
                     <ul>
-                        <li>{frontmatter.week}</li>
-                        <li>{month}</li>
-                        <li class="right">{frontmatter.tags[0]}</li>
+                        {blogMeta.map((key) => <li>{key}</li>)}
                     </ul>
                 </div>
                 <slot />
@@ -40,3 +50,11 @@ const month = pubTime.toDateString();
         </main>
     </body>
 </html>
+<script>
+    const image = document.querySelector(".title-img");
+    console.log(image);
+    if (image == null) {
+        const blogBody: any = document.getElementById("blog-body");
+        blogBody.style.position = "static";
+    }
+</script>

@@ -1,8 +1,15 @@
-+++
-title = 'Genesis'
-date = 2025-07-13T17:39:56+05:30
-draft = false
-+++
+---
+title: 'Genesis'
+author: ''
+description: ''
+week: "Week 0"
+pubDate: 2025-07-13T17:39:56+05:30
+draft: false
+image:
+    url: ''
+    alt: ''
+tags: ['personal', 'travel']
+---
 # Week 0, July 2025
 
 So I finally went to a _weekend_ getaway/destination thingy after spending **two** years in Banglore, 

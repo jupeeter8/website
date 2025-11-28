@@ -8,8 +8,7 @@ const { pageTitle, paragraph } = Astro.props;
     {
         paragraph && (
             <p>
-                On the web since 2009. Programmer, OSS Enthusiat, Traveller,
-                Human.
+                {paragraph}
             </p>
         )
     }
@@ -18,7 +17,7 @@ const { pageTitle, paragraph } = Astro.props;
 
 <style>
     header {
-        margin-bottom: 2em;
+        margin-bottom: 1em;
         padding-bottom: 0.5rem;
         border-bottom: 1px solid rgb(170, 135, 40);
     }

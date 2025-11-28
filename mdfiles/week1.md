@@ -1,7 +1,7 @@
 ---
-title = 'To dump or not to dump'
-date = 2025-07-19T19:59:34+05:30
-draft = false
+title: 'To dump or not to dump'
+pubDate: 2025-07-19T19:59:34+05:30
+draft: false
 ---
 
 # Week 1. July 2025

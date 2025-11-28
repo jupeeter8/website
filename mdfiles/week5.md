@@ -1,10 +1,9 @@
-
 ---
 title: "Side Quests"
-date: 2025-08-24T14:19:00+05:30
+pubDate: 2025-08-24T14:19:00+05:30
 draft: false
-cover:
-  image: https://theblog-static.s3.ap-south-1.amazonaws.com/week5/week5_cover.png
+image: 
+  url: "https://theblog-static.s3.ap-south-1.amazonaws.com/week5/week5_cover.png"
 ---
 
 

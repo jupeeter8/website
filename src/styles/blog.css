@@ -1,104 +1,106 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-@font-face {
-    font-family: "Caslonia";
-    src: url("/src/static/fonts/Caslonia-Regular.otf") format("opentype");
-}
-html {
-    box-sizing: border-box;
-}
+    @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
-}
-body {
-    font-family: "Lato", sans-serif;
-    max-width: 50%;
-    margin-top: 2rem;
-    color: #2f2f2f;
-    background-color: #ededed;
-}
+    @font-face {
+        font-family: "Caslonia";
+        src: url("/src/static/fonts/Caslonia-Regular.otf") format("opentype");
+    }
 
-img {
-    max-width: 100%;
-    height: auto;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    border-radius: 0.5rem;
-}
+    html {
+        box-sizing: border-box;
+    }
 
-.entry-desc {
-    font-style: italic;
-    border-left: 3px solid rgb(170, 135, 40);
-    padding-left: 0.5rem;
-}
+    *,
+    *::before,
+    *::after {
+        box-sizing: inherit;
+    }
 
-.title-img {
-    min-width: 100%;
-    max-width: 100%;
-    height: auto;
-    border-radius: 0rem;
-    margin: 0;
-}
+    .blog {
+        font-family: "Lato", sans-serif;
+        max-width: 45%;
+        margin-top: 2rem;
+        color: #2f2f2f;
+        background-color: #ededed;
+    }
 
-.blog-body {
-    position: relative;
-    max-width: 90%;
-    margin-inline: auto;
-    top: -8rem;
-    left: -1rem;
-    background-color: inherit;
-    padding: 1.4rem;
-}
+    .blog img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        border-radius: 0.5rem;
+    }
 
-.blog-body .entry-title {
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
-    margin-top: 1rem;
-    border-left: 3px solid rgb(170, 135, 40);
-    padding-left: 1rem;
-}
+    .blog .entry-desc {
+        font-style: italic;
+        border-left: 3px solid rgb(170, 135, 40);
+        padding-left: 0.5rem;
+    }
 
+    .blog .title-img {
+        min-width: 100%;
+        max-width: 100%;
+        height: auto;
+        border-radius: 0rem;
+        margin: 0;
+    }
 
-.blog-header {
-    margin-bottom: 2rem;
-}
+    .blog .blog-body {
+        position: relative;
+        max-width: 90%;
+        margin-inline: auto;
+        top: -8rem;
+        left: -1rem;
+        background-color: #ededed;
+        padding: 1.4rem;
+    }
 
-.blog-header ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    padding-bottom: 1rem;
-    padding-left: 1.3rem;
-    font-family: "Lato", sans-serif;
-    font-size: 0.8rem;
-    color: #696969;
-}
+    .blog .blog-body .entry-title {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+        margin-top: 1rem;
+        border-left: 3px solid rgb(170, 135, 40);
+        padding-left: 1rem;
+    }
 
-.blog-header ul li {
-    display: inline;
-    margin-right: 1rem;
-}
+    .blog .blog-header {
+        margin-bottom: 2rem;
+    }
 
-.blog-header ul > .right {
-    margin: 0;
-    font-style: italic;
-}
+    .blog .blog-header ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 1rem;
+        padding-left: 1.3rem;
+        font-family: "Lato", sans-serif;
+        font-size: 0.8rem;
+        color: #696969;
+    }
 
+    .blog .blog-header ul li {
+        display: inline;
+        margin-right: 1rem;
+    }
 
-.blog-body p {
-    font-size: 16px;
-    word-spacing: 0.1rem;
-}
+    .blog .blog-header ul>.right {
+        margin: 0;
+        font-style: italic;
+    }
 
-.blog-body h3 {
-    font-size: 1.5rem;
-}
+    .blog .blog-body p {
+        font-size: 16px;
+        word-spacing: 0.1rem;
+    }
 
-.blog-body a {
-    color: rgb(170, 135, 40);
-}
-.blog-body a:visited {
-    color: rgb(170, 135, 40);
-}
+    .blog .blog-body h3 {
+        font-size: 1.5rem;
+    }
+
+    .blog .blog-body a {
+        color: rgb(170, 135, 40);
+    }
+
+    .blog .blog-body a:visited {
+        color: rgb(170, 135, 40);
+    }
