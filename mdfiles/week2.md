@@ -1,9 +1,8 @@
-+++
-title = 'The Spirit of Exploration'
-date = 2025-07-27T09:33:39+05:30
-draft = false
-+++
-
+---
+title: 'The Spirit of Exploration'
+pubDate: 2025-07-27T09:33:39+05:30
+draft: false
+---
 # Week 2, July 2025.
 
 ## Video Games and drinking coffee

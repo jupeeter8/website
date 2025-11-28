@@ -1,9 +1,8 @@
-+++
-title = 'Fresh Start'
-date = 2025-08-10T15:56:56+05:30
-draft = false
-+++
-
+---
+title: 'Fresh Start'
+pubDate: 2025-08-10T15:56:56+05:30
+draft: false
+---
 # Week 4, August 2025
 
 Hello friends, I hope you are doing good. It has been pouring heavily in Bangalore for the last few days

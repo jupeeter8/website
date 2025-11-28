@@ -1,5 +1,4 @@
 ---
-layout: '../../layouts/BlogPost.astro'
 title:  'I am doing this solely based on vibes'
 pubDate: 2025-11-19T23:30:00+05:30
 description: 'I have been travelling a lot'
@@ -8,6 +7,7 @@ image:
     alt: ''
 tags: ["travel", "personal"]
 week: Week 12
+author: ''
 summary: 'I had planned the end of my year very sloppily. There were a few things that I had wanted to achieve by December though I had not given much thought to the process of doing it.'
 ---
 I had planned the end of my year very sloppily. There were a few things that I had wanted to achieve by December though I had not given much thought to the process of doing it. Just that it would be great to have done them. Nevertheless that thoughtless plan looked very different from where I am right now. After a glimpse at my "TODO list", I feel that I am far from

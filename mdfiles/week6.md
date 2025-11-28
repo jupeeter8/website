@@ -1,11 +1,10 @@
 ---
 title: "A better version"
-date: 2025-08-31T18:59:53+05:30
+pubDate: 2025-08-31T18:59:53+05:30
 draft: false
-cover:
-    image: https://theblog-static.s3.ap-south-1.amazonaws.com/week6/walter-del-aguila-3ZwqjCej7VE-unsplash.jpg
-    caption: "Photo by Walter del Aguila on Unsplash"
-    
+image: 
+  url: https://theblog-static.s3.ap-south-1.amazonaws.com/week6/walter-del-aguila-3ZwqjCej7VE-unsplash.jpg
+  alt: "Photo by Walter del Aguila on Unsplash"
 ---
 # Week 6, Aug 2025
 

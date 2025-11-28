@@ -1,8 +1,8 @@
-+++
-title = 'The Pursuit of Happyness'
-date = 2025-08-03T17:10:57+05:30
-draft = false
-+++
+---
+title: 'The Pursuit of Happyness'
+pubDate: 2025-08-03T17:10:57+05:30
+draft: false
+---
 # Week 3, August 2025
 
 Hello friends, I hope you all are doing great. Autumn is almost here and with it the realisation that

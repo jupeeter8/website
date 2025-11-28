@@ -1,10 +1,10 @@
-+++
-title = 'Work life balance'
-date = 2025-09-13T08:58:59+05:30
-draft = false
-[cover]
-    image = "https://theblog-static.s3.ap-south-1.amazonaws.com/week7/ikea_banner.jpg"
-+++
+---
+title: 'Work life balance'
+pubDate: 2025-09-13T08:58:59+05:30
+draft: false
+image: 
+  url: "https://theblog-static.s3.ap-south-1.amazonaws.com/week7/ikea_banner.jpg"
+---
 ## Week 7, September 2025
 ### Year of linux
 Every now and then, for the last 5 years, I hear or read someone on the internet say that this year
