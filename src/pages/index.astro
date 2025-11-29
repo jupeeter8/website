@@ -2,14 +2,15 @@
 import PageLayout from "../layouts/PageLayout.astro";
 import Newspaper from "../components/Newspaper.astro";
 const pageTitle = "Anirudh Aswal";
-const tabTitle = "Home"
-const paragraph = "On the web since 2009. Programmer, OSS Enthusiat, Traveller, Human.";
+const tabTitle = "Home";
+const paragraph =
+	"On the web since 2009. Programmer, OSS Enthusiat, Traveller, Human.";
 ---
 
 <PageLayout pageTitle={pageTitle} paragraph={paragraph} tabTitle={tabTitle}>
 	<div class="home-body">
 		<section class="content-body">
-			<article class="content-layout">
+			<article class="blog-intro">
 				<h2><mark>I write,</mark> not very well</h2>
 				<p>
 					I have recently started writing blogs. Social media is
@@ -24,3 +25,47 @@ const paragraph = "On the web since 2009. Programmer, OSS Enthusiat, Traveller, 
 		</section>
 	</div>
 </PageLayout>
+
+<style>
+	.home-body h2 {
+		font-style: italic;
+	}
+
+	.home-body {
+		padding: 1rem 0rem 1rem 0rem;
+	}
+
+	.home-body h2 {
+		margin-top: 0;
+	}
+
+	.blog-intro > p {
+		font-weight: 400;
+		font-style: normal;
+		font-size: 1rem;
+		max-width: 50%;
+		text-align: justify;
+	}
+
+	.blog-intro {
+		max-width: 75%;
+	}
+
+	@media (width <= 450px){
+		.home-body h2 {
+			margin-top: 0;
+			font-size: x-large;
+		}
+		.blog-intro {
+			max-width: 100%;
+			margin-bottom: 3rem;
+		}
+
+		.blog-intro > p {
+			max-width: 100%;
+			font-size: 0.9rem;
+			text-align: left;
+		}
+	}
+
+</style>

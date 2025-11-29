@@ -1,29 +1,10 @@
-    @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
-
-    @font-face {
-        font-family: "Caslonia";
-        src: url("/src/static/fonts/Caslonia-Regular.otf") format("opentype");
-    }
-
-    html {
-        box-sizing: border-box;
-    }
-
-    *,
-    *::before,
-    *::after {
-        box-sizing: inherit;
-    }
-
     .blog {
-        font-family: "Lato", sans-serif;
-        max-width: 45%;
-        margin-top: 2rem;
-        color: #2f2f2f;
-        background-color: #ededed;
+        max-width: 80%;
+        margin-inline: auto;
+        margin-top: 6rem;
     }
 
-    .blog img {
+    img {
         max-width: 100%;
         height: auto;
         margin-top: 2rem;
@@ -31,13 +12,13 @@
         border-radius: 0.5rem;
     }
 
-    .blog .entry-desc {
+    .entry-desc {
         font-style: italic;
-        border-left: 3px solid rgb(170, 135, 40);
-        padding-left: 0.5rem;
+        color: #696969;
+        text-align: center;
     }
 
-    .blog .title-img {
+    .title-img {
         min-width: 100%;
         max-width: 100%;
         height: auto;
@@ -45,7 +26,7 @@
         margin: 0;
     }
 
-    .blog .blog-body {
+    .blog-body {
         position: relative;
         max-width: 90%;
         margin-inline: auto;
@@ -55,7 +36,7 @@
         padding: 1.4rem;
     }
 
-    .blog .blog-body .entry-title {
+    .blog-body .entry-title {
         font-size: 2rem;
         margin-bottom: 0.5rem;
         margin-top: 1rem;
@@ -63,11 +44,7 @@
         padding-left: 1rem;
     }
 
-    .blog .blog-header {
-        margin-bottom: 2rem;
-    }
-
-    .blog .blog-header ul {
+    .blog-header ul {
         list-style: none;
         margin: 0;
         padding: 0;
@@ -78,29 +55,49 @@
         color: #696969;
     }
 
-    .blog .blog-header ul li {
+    .blog-header ul li {
         display: inline;
         margin-right: 1rem;
     }
 
-    .blog .blog-header ul>.right {
+    .blog-header ul>.right {
         margin: 0;
         font-style: italic;
     }
 
-    .blog .blog-body p {
+    .blog-body p {
         font-size: 16px;
         word-spacing: 0.1rem;
     }
 
-    .blog .blog-body h3 {
+    .blog-body h3 {
         font-size: 1.5rem;
     }
 
-    .blog .blog-body a {
+    .blog-body a {
         color: rgb(170, 135, 40);
     }
 
-    .blog .blog-body a:visited {
+    .blog-body a:visited {
         color: rgb(170, 135, 40);
     }
+
+@media (width <= 450px) {
+
+    .blog {
+        max-width: unset;
+    }
+
+    .blog-body {
+        position: unset;
+        max-width: unset;
+        padding-left: unset;
+        padding-right: unset;
+    }
+}
+
+@media (450px < width <= 650px) {
+    body {
+        max-width: unset;
+    }
+}

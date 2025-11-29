@@ -5,19 +5,13 @@ const { pageTitle, paragraph } = Astro.props;
 
 <header>
     <h1>{pageTitle}</h1>
-    {
-        paragraph && (
-            <p>
-                {paragraph}
-            </p>
-        )
-    }
+    {paragraph && <p>{paragraph}</p>}
     <Nav />
 </header>
 
 <style>
     header {
-        margin-bottom: 1em;
+        margin-bottom: 3rem;
         padding-bottom: 0.5rem;
         border-bottom: 1px solid rgb(170, 135, 40);
     }
@@ -34,5 +28,30 @@ const { pageTitle, paragraph } = Astro.props;
         font-weight: 300;
         margin-top: 0;
         margin-bottom: 1.5rem;
+    }
+
+    @media (width <= 450px) {
+        header {
+            margin-bottom: 2rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid rgb(170, 135, 40);
+        }
+
+        header h1 {
+            /* font-weight: 400; */
+            font-style: normal;
+            font-size: 2rem;
+            margin-top: 0;screen
+            margin-bottom: 0.5rem;
+            max-width: 50%;
+        }
+
+        h1 + p {
+            font-weight: 400;
+            font-size: smaller;
+            margin-top: 0;
+            margin-bottom: 2rem;
+            max-width: 90%;
+        }
     }
 </style>

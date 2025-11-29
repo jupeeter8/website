@@ -57,7 +57,6 @@ const formatDate = (date: string | Date) => {
         justify-content: baseline;
         align-items: center;
         margin-bottom: 1.5rem;
-        margin-top: 3rem;
         background-color: #f9f7f1;
         color: 2f2f2f;
         border-bottom: 3px solid lightgrey;
@@ -95,5 +94,21 @@ const formatDate = (date: string | Date) => {
 
     .entry-meta .entry-desc {
         margin-bottom: 1.5rem;
+    }
+
+    @media (width <= 450px) {
+        .entry-img {
+            display: none;
+        }
+        .entry-card {
+
+        }
+        .entry-meta {
+            padding: 1rem;
+        }
+        .entry-meta h2 {
+            font-size: 2rem;
+            max-width: unset;
+        }
     }
 </style>
