@@ -96,18 +96,35 @@ const formatDate = (date: string | Date) => {
         margin-bottom: 1.5rem;
     }
 
-    @media (width <= 450px) {
+    @media (width <= 500px) {
         .entry-img {
             display: none;
         }
-        .entry-card {
 
-        }
         .entry-meta {
             padding: 1rem;
         }
         .entry-meta h2 {
             font-size: 2rem;
+            max-width: unset;
+        }
+    }
+    @media (width <= 1000px) {
+        .entry-meta {
+            padding: 0.8rem;
+        }
+        .entry-meta h2 {
+            font-size: 1.8rem;
+            max-width: unset;
+        }
+        .entry-meta .entry-desc {
+            margin-bottom: unset;
+        }
+    }
+
+    @media (width <= 800px) {
+        .entry-meta h2 {
+            font-size: 1.5rem;
             max-width: unset;
         }
     }

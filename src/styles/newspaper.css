@@ -5,12 +5,15 @@
 
 
 .newspaper {
-    /* border: 2px solid red; */
     background-color: #f9f7f1;
+    background-color: #F5F2E8;
+    background-color: #e2e2e2;
     color: #2f2f2f;
     display: flex;
     flex-direction: column;
     margin-bottom: 5rem;
+    max-width: 60%;
+    margin-inline: auto;
 }
 
 .ns-header {
@@ -38,6 +41,7 @@
 .content {
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
     max-height: 100%;
     overflow: hidden;
     margin-bottom: 0.2rem;
@@ -137,21 +141,21 @@
 
 
 @media (width <= 1000px ){
+    .newspaper {
+        max-width: unset;
+    }
     .ns-subhead {
         font-size: smaller;
     }
 
-    .content {
-        flex-direction: column;
-    }
+}
 
-    .ns-side-content.right {
-        display: none;
+@media (100px < width <= 1400px ){
+    .newspaper {
+        max-width: unset;
     }
-
-    .collumns.left {
-        display: none;
+    .ns-subhead {
+        font-size: smaller;
     }
-
 
 }
