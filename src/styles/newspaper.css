@@ -53,6 +53,7 @@
     padding-top: 0.5em;
 }
 
+
 .collumns:nth-child(even) {
     flex: 2;
 }
@@ -65,16 +66,8 @@
 }
 
 .ns-side-content {
-   text-align: justify;
-   font-size: small;
+   /* font-size: small; */
    font-family: 'Droid Serif', serif;
-}
-
-.ns-side-content:nth-child(even) {
-    width: 80%;
-    font-size: small;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
 }
 
 .ns-side-content.right {
@@ -143,7 +136,7 @@
 }
 
 
-@media (width <= 450px ){
+@media (width <= 1000px ){
     .ns-subhead {
         font-size: smaller;
     }

@@ -51,7 +51,7 @@ const paragraph =
 		max-width: 75%;
 	}
 
-	@media (width <= 450px){
+	@media (width <= 500px){
 		.home-body h2 {
 			margin-top: 0;
 			font-size: x-large;
@@ -63,6 +63,22 @@ const paragraph =
 
 		.blog-intro > p {
 			max-width: 100%;
+			font-size: 0.9rem;
+			text-align: left;
+		}
+	}
+	@media (width <= 1000px){
+		.home-body h2 {
+			margin-top: 0;
+			font-size: x-large;
+		}
+		.blog-intro {
+			max-width: 100%;
+			margin-bottom: 3rem;
+		}
+
+		.blog-intro > p {
+			max-width: 90%;
 			font-size: 0.9rem;
 			text-align: left;
 		}

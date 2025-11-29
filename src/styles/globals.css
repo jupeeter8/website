@@ -53,16 +53,24 @@ mark {
 	color: #2f2f2f;
 }
 
-@media (width <= 450px) {
+@media (width <= 650px) {
 	body {
 		max-width: unset;
-		padding: 1rem;
+		padding: 1.5rem;
 	}
 }
 
-@media (450px < width <= 650px) {
+@media (650px < width <= 1000px) {
+
 	body {
-		max-width: unset;
+		max-width: 80%;
 		padding: 1rem;
+	}
+
+}
+
+@media (width > 1920px) {
+	html {
+		font-size: 20px;
 	}
 }

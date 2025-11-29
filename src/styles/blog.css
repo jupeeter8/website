@@ -82,7 +82,7 @@
         color: rgb(170, 135, 40);
     }
 
-@media (width <= 450px) {
+@media (width <= 500px) {
 
     .blog {
         max-width: unset;
@@ -96,8 +96,9 @@
     }
 }
 
-@media (450px < width <= 650px) {
-    body {
+@media (500px < width <= 1000px) {
+
+    .blog {
         max-width: unset;
     }
 }
