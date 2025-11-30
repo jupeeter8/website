@@ -23,7 +23,7 @@
 }
 
 .ns-subhead {
-    font-family: "Libre Caslon Text", serif;
+    font-family: "Droid Serif", serif;
     text-align: center;
     border-top: 2px solid #2f2f2f;
     border-bottom: 2px solid #2f2f2f;
@@ -51,8 +51,8 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 2rem;
+    padding-right: 2rem;
     padding-bottom: 0.5em;
     padding-top: 0.5em;
 }
@@ -74,12 +74,6 @@
    font-family: 'Droid Serif', serif;
 }
 
-.ns-side-content.right {
-    direction: rtl;
-}
-.ns-side-content.right:nth-child(even) {
-    margin-left: auto;
-}
 
 .ns-main-body h3{
     font-family: 'Caslonia';
