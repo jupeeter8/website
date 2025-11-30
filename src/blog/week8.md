@@ -1,10 +1,13 @@
 ---
 title: "Once you do something, you never forget. Even if you can't remember."
+description: 'OSS Army!'
+week: 'Week 8'
 pubDate: 2025-09-22T23:20:11+05:30
 draft: false
 image: 
   url: "https://theblog-static.s3.ap-south-1.amazonaws.com/week8/roddent.jpg"
   alt: "Rodent by [@diyaankitax3](https://www.instagram.com/diyaankitax3)"
+tags: ['tech', 'blog']
 ---
 
 ## Week 8, Sep 2025

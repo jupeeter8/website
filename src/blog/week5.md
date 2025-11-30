@@ -1,9 +1,13 @@
 ---
 title: "Side Quests"
+description: "The toll of bad decisions"
+week: "Week 5"
 pubDate: 2025-08-24T14:19:00+05:30
 draft: false
 image: 
   url: "https://theblog-static.s3.ap-south-1.amazonaws.com/week5/week5_cover.png"
+  alt: "Side Quests"
+tags: ['quests', 'blog']
 ---
 
 

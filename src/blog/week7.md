@@ -1,9 +1,13 @@
 ---
 title: 'Work life balance'
+description: 'Enti ra?'
+week: 'Week 7'
 pubDate: 2025-09-13T08:58:59+05:30
 draft: false
 image: 
   url: "https://theblog-static.s3.ap-south-1.amazonaws.com/week7/ikea_banner.jpg"
+  alt: "Banner of hotdog at IKEA"
+tags: ['travel', 'friends']
 ---
 ## Week 7, September 2025
 ### Year of linux

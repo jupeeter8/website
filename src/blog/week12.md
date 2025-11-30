@@ -1,14 +1,13 @@
 ---
 title:  'I am doing this solely based on vibes'
+description: "There are two things I don't know much about. Politics and my plans"
+week: Week 12
 pubDate: 2025-11-19T23:30:00+05:30
-description: 'I have been travelling a lot'
+draft: false
 image:
     url: 'https://theblog-static.s3.ap-south-1.amazonaws.com/week12/kolkata_cover.jpeg'
     alt: ''
 tags: ["travel", "personal"]
-week: Week 12
-author: ''
-summary: 'I had planned the end of my year very sloppily. There were a few things that I had wanted to achieve by December though I had not given much thought to the process of doing it.'
 ---
 I had planned the end of my year very sloppily. There were a few things that I had wanted to achieve by December though I had not given much thought to the process of doing it. Just that it would be great to have done them. Nevertheless that thoughtless plan looked very different from where I am right now. After a glimpse at my "TODO list", I feel that I am far from
 achieving most of what I wanted to and some of it, I don't even care about doing anymore. Instead, I tried something that was not even a *background thought* at the start of this year but in the last few months, it was in the limelight more and more. I chose to throw all of my plans in the bin and started travelling.  

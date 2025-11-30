@@ -1,9 +1,13 @@
 ---
 title: 'Last day of school'
+description: 'Your so-called boss may own the clock that taunts you from the wall, but, my friends, the hour is yours. (what?)'
+week: 'Week 9'
 pubDate: 2025-09-29T07:18:12+05:30
 draft: false
 image: 
   url: "https://theblog-static.s3.ap-south-1.amazonaws.com/week9/week9_cover.jpg"
+  alt: "Last Day of School"
+tags: ['travel', 'friends']
 ---
 
 ## Week 9, Sep 2025
@@ -32,7 +36,7 @@ just a weird cope. We went out to have beers on friday to celebrate the fact tha
 as a gesture since no one saw this coming and this is the least we should do as friends.
 
 ### Next thing
-I have been spending the last week thinking about where I'd be traveling to for the next 30-45 days.
+I have spent the last few weeks thinking about where I'd be traveling to for the next 30-45 days.
 I have finally decided to go to Meghalaya and Arunachal Pradesh. Before that I'll be starting with Pondicherry
 and Ongole (I'll meet my friends family there). Then I'll go home and spend some time there for Diwali
 before heading to Kolkata and then finally into the North East. I don't know what I am doing. I have

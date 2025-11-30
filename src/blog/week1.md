@@ -1,7 +1,13 @@
 ---
 title: 'To dump or not to dump'
+description: 'Binge watching the greatest show on earth'
+week: 'Week 1'
 pubDate: 2025-07-19T19:59:34+05:30
 draft: false
+image:
+  url: ''
+  alt: ''
+tags: ['movies', 'urban']
 ---
 
 # Week 1. July 2025

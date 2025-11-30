@@ -1,14 +1,13 @@
 ---
 title: 'Genesis'
-author: ''
 description: ''
 week: "Week 0"
 pubDate: 2025-07-13T17:39:56+05:30
 draft: false
 image:
-    url: ''
-    alt: ''
-tags: ['personal', 'travel']
+  url: ''
+  alt: ''
+tags: ['blog', 'travel']
 ---
 # Week 0, July 2025
 

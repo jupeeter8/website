@@ -1,7 +1,14 @@
 ---
 title: 'The Spirit of Exploration'
+description: 'I used to play games like Tomb Raider and Uncharted when I was small. I have sunk countless hours
+exploring these beautifully and painstakingly..'
+week: 'Week 2'
 pubDate: 2025-07-27T09:33:39+05:30
 draft: false
+image:
+  url: ''
+  alt: ''
+tags: ['gaming', 'urban']
 ---
 # Week 2, July 2025.
 

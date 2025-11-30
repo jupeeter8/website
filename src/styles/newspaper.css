@@ -1,7 +1,4 @@
-@font-face {
-    font-family: "Caslonia";
-    src: url("/src/static/fonts/Caslonia-Regular.otf") format("opentype");
-}
+
 
 
 .newspaper {
@@ -71,7 +68,7 @@
 
 .ns-side-content {
    /* font-size: small; */
-   font-family: 'Droid Serif', serif;
+   font-family: 'Fredoka', serif;
 }
 
 
