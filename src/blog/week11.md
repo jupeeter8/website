@@ -9,6 +9,8 @@ image:
   alt: "A lotus lake in Auroville"
 tags: ['travel', 'friends']
 ---
+import BlogPostImg from '../components/BlogPostImg.astro';
+export const components = {img: BlogPostImg}
 I want to let you all know that you can now [sub to my newsletter](https://whereisanirudh.info/subs/) for updates. Thank you.
 ## Week 11, Oct 2025
 One of the battles I frequently find myself in, with myself, is to keep track of all my things. I
@@ -37,7 +39,7 @@ I don't know how I do this. I honestly check my bag 5 times before leaving. I wa
 that I have left my earphone, stopped driving while I was on my way to Chennai, unpacked and confirmed
 that I still have it; only to realies that the notification was for my left earphone after I reached my friend's
 home in Chennai. I really want to punch myself.
-![A dog playing with a plant](https://theblog-static.s3.ap-south-1.amazonaws.com/week11/browndoginpondi.JPG "epic")
+![A dog playing with a plant](https://theblog-static.s3.ap-south-1.amazonaws.com/week11/browndoginpondi.JPG "A dog I met in pondi, no relation with me losing things")
 
 > Hey, this is Anirudh from future for a post writing announcement.  
 I have found the charger after I finished writing this. Lucky me.
@@ -58,7 +60,7 @@ Trying to carry my luggage on my bike was more or less the same, I relied too mu
 cords. I had enough time before leaving to get proper cables and brackets for this task but I fell for
 the trap. Most of the time while riding, I had to stop every few kilometers and adjust my cables
 because my bags would start hanging from one side. Things got out of place on the slightest bumps 
-and my shoes were all over the place because I did not think of packing them until I started my journey. 
+and my shoes were all over the place because I did not think of packing them until I started my journey.
 {{< figure src="https://theblog-static.s3.ap-south-1.amazonaws.com/week11/terriblegear.jpeg" alt="Image of luggage falling to one side of a bike" width="500px" attr="Pack falling off 20 minutes into the journey" align="center">}}
 
 Ropes snapped, and people on the road informed me that my shitty laptop bag is about to fall.
