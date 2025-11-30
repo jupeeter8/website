@@ -1,12 +1,15 @@
 ---
 const pageTitle = "The Blog";
 import PageLayout from "../layouts/PageLayout.astro"
-import BlogPostCard from "../components/BlogPostCard.astro"
+import PostIndexCard from "../components/PostIndexCard.astro"
 import { getCollection } from "astro:content";
 const tabTitle = "Blog";
 const paragraph = false;
-const allPosts = await getCollection('blog')
+const allPosts =  (await getCollection('blog')).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
+
 ---
 <PageLayout pageTitle={pageTitle} tabTitle={tabTitle} paragraph={paragraph}>
-    <BlogPostCard allPosts={allPosts} />
+    <PostIndexCard allPosts={allPosts} />
 </PageLayout>

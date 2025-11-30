@@ -8,8 +8,16 @@
         max-width: 100%;
         height: auto;
         margin-top: 2rem;
-        margin-bottom: 2rem;
+        margin-bottom: 0.5rem;
         border-radius: 0.5rem;
+    }
+
+    .blog-img figcaption p {
+        color: #696969;
+        text-align: center;
+        font-size: 0.8rem;
+        font-style: italic;
+        margin-bottom: 1.5rem;
     }
 
     .entry-desc {
@@ -72,6 +80,11 @@
 
     .blog-body h3 {
         font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .blog-body h3 + p {
+        margin-top: 0;
     }
 
     .blog-body a {
