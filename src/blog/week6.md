@@ -1,10 +1,13 @@
 ---
 title: "A better version"
+description: "I have often feared change."
+week: "Week 6"
 pubDate: 2025-08-31T18:59:53+05:30
 draft: false
 image: 
   url: https://theblog-static.s3.ap-south-1.amazonaws.com/week6/walter-del-aguila-3ZwqjCej7VE-unsplash.jpg
   alt: "Photo by Walter del Aguila on Unsplash"
+tags: ['blog']
 ---
 # Week 6, Aug 2025
 

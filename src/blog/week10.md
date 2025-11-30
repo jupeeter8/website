@@ -1,10 +1,14 @@
-+++
-title = 'Block that time ty'
-date = 2025-10-14T01:03:23+05:30
-draft = false
-[cover]
-    image = "https://theblog-static.s3.ap-south-1.amazonaws.com/week10/ruins_2.jpeg"
-+++
+---
+title: 'Block that time ty'
+description: "I may hate Bangalore, but it's the city I have enjoyed the most. It's complicated."
+week: 'Week 10'
+pubDate: 2025-10-14T01:03:23+05:30
+draft: false
+image:
+  url: "https://theblog-static.s3.ap-south-1.amazonaws.com/week10/ruins_2.jpeg"
+  alt: "Ruins in Goa"
+tags: ['travel', 'friends']
+---
 
 
 ## Week 10, Oct 2025

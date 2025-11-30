@@ -1,7 +1,13 @@
 ---
 title: 'Fresh Start'
+description: 'I am making some changes!'
+week: 'Week 4'
 pubDate: 2025-08-10T15:56:56+05:30
 draft: false
+image:
+  url: ''
+  alt: ''
+tags: ['friends', 'blog']
 ---
 # Week 4, August 2025
 

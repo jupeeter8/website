@@ -1,11 +1,14 @@
-+++
-title = 'Being a part of everything, tiring'
-date = 2025-10-24T15:55:00+05:30
-draft = false
-[cover]
-    image="https://theblog-static.s3.ap-south-1.amazonaws.com/week11/lillylakestairs.JPG"
-    caption="A lotus lake in Auroville"
-+++
+---
+title: 'Being a part of everything, tiring'
+description: "I don't know. I think maybe I've been wasting my time, just doing nothing"
+week: 'Week 11'
+pubDate: 2025-10-24T15:55:00+05:30
+draft: false
+image:
+  url: "https://theblog-static.s3.ap-south-1.amazonaws.com/week11/lillylakestairs.JPG"
+  alt: "A lotus lake in Auroville"
+tags: ['travel', 'friends']
+---
 I want to let you all know that you can now [sub to my newsletter](https://whereisanirudh.info/subs/) for updates. Thank you.
 ## Week 11, Oct 2025
 One of the battles I frequently find myself in, with myself, is to keep track of all my things. I

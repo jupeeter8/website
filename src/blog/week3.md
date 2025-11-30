@@ -1,7 +1,14 @@
 ---
 title: 'The Pursuit of Happyness'
+description: 'Autumn is almost here and with it the realisation that
+there are only 4 months left in the year'
+week: 'Week 3'
 pubDate: 2025-08-03T17:10:57+05:30
 draft: false
+image:
+  url: ''
+  alt: ''
+tags: ['blog']
 ---
 # Week 3, August 2025
 

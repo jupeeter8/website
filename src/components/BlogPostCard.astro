@@ -57,15 +57,16 @@ const formatDate = (date: string | Date) => {
         justify-content: baseline;
         align-items: center;
         margin-bottom: 1.5rem;
-        margin-top: 3rem;
         background-color: #f9f7f1;
+        background-color: #e2e2e2;
         color: 2f2f2f;
         border-bottom: 3px solid lightgrey;
     }
 
     .entry-img {
+        min-height: 100%;
+        max-height: 100%;
         max-width: 20%;
-        max-height: fit-content;
         margin-right: 1rem;
     }
 
@@ -96,4 +97,38 @@ const formatDate = (date: string | Date) => {
     .entry-meta .entry-desc {
         margin-bottom: 1.5rem;
     }
+
+    @media (width <= 500px) {
+        .entry-img {
+            display: none;
+        }
+
+        .entry-meta {
+            padding: 1rem;
+        }
+        .entry-meta h2 {
+            font-size: 2rem;
+            max-width: unset;
+        }
+    }
+    @media (width <= 1400px) {
+        .entry-meta {
+            padding: 0.8rem;
+        }
+        .entry-meta h2 {
+            font-size: 1.8rem;
+            max-width: unset;
+        }
+        .entry-meta .entry-desc {
+            margin-bottom: unset;
+        }
+    }
+
+    @media (width <= 800px) {
+        .entry-meta h2 {
+            font-size: 1.5rem;
+            max-width: unset;
+        }
+    }
+
 </style>
