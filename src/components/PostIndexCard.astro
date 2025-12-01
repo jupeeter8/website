@@ -13,7 +13,7 @@ const formatDate = (date: string | Date) => {
     <div class="blog-list">
         {
             allPosts.map((post: any) => (
-                <a href={post.id}>
+                <a href={`/blog/${post.id}`}>
                     <article class="entry-card">
                         <div class="entry-img">
                             <img
@@ -57,15 +57,16 @@ const formatDate = (date: string | Date) => {
         justify-content: baseline;
         align-items: center;
         margin-bottom: 1.5rem;
-        margin-top: 3rem;
         background-color: #f9f7f1;
+        background-color: #e2e2e2;
         color: 2f2f2f;
         border-bottom: 3px solid lightgrey;
     }
 
     .entry-img {
+        min-height: 100%;
+        max-height: 100%;
         max-width: 20%;
-        max-height: fit-content;
         margin-right: 1rem;
     }
 
@@ -81,8 +82,7 @@ const formatDate = (date: string | Date) => {
         flex-grow: 1;
     }
     .entry-meta h2 {
-        font-family: "Caslonia", serif;
-        font-size: 2.5rem;
+        font-family: "Lato", sans-serif;
         margin: 0 0 0.5rem 0;
         max-width: 80%;
     }
@@ -96,4 +96,41 @@ const formatDate = (date: string | Date) => {
     .entry-meta .entry-desc {
         margin-bottom: 1.5rem;
     }
+
+    @media (width <= 500px) {
+        .entry-img {
+            display: none;
+        }
+
+        .entry-meta {
+            padding: 1rem;
+        }
+        .entry-meta h2 {
+            font-size: 2rem;
+            max-width: unset;
+            margin 0;
+        }
+    }
+    @media (width <= 1400px) {
+        .entry-meta {
+            padding: 0.8rem;
+        }
+        .entry-meta h2 {
+            font-size: 1.8rem;
+            max-width: unset;
+            margin 0;
+        }
+        .entry-meta .entry-desc {
+            margin-bottom: 0.5rem;
+        }
+    }
+
+    @media (width <= 800px) {
+        .entry-meta h2 {
+            font-size: 1.5rem;
+            max-width: unset;
+            margin: 0;
+        }
+    }
+
 </style>

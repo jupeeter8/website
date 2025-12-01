@@ -1,0 +1,9 @@
+---
+const {src, alt, title} = Astro.props;
+---
+<figure class="blog-img">
+    <img src={src} alt={alt} />
+    <figcaption>
+        <p>{title}</p>
+    </figcaption>
+</figure>

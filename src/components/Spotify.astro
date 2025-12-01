@@ -1,0 +1,9 @@
+---
+const { id, type } = Astro.props;
+const src = `https://open.spotify.com/embed/${type}/${id}`;
+---
+
+<iframe src={src}
+    frameborder="0"
+    allowtransparency="true"
+    allow="encrypted-media"></iframe>
