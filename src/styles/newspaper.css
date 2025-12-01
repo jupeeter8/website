@@ -1,6 +1,3 @@
-
-
-
 .newspaper {
     background-color: #f9f7f1;
     background-color: #F5F2E8;
@@ -9,8 +6,9 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 5rem;
-    max-width: 60%;
+    max-width: 70%;
     margin-inline: auto;
+    font-family: 'Source Serif 4', serif;
 }
 
 .ns-header {
@@ -20,19 +18,16 @@
 }
 
 .ns-subhead {
-    font-family: "Droid Serif", serif;
     text-align: center;
     border-top: 2px solid #2f2f2f;
     border-bottom: 2px solid #2f2f2f;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     letter-spacing: 0.1rem;
-    word-spacing: 0.2rem;
 }
 
 .ns-subhead p {
     margin: 0;
+    font-size: 0.8rem;
 }
 
 .content {
@@ -42,6 +37,7 @@
     max-height: 100%;
     overflow: hidden;
     margin-bottom: 0.2rem;
+    
 }
 
 .collumns {
@@ -50,8 +46,9 @@
     flex-direction: column;
     padding-left: 2rem;
     padding-right: 2rem;
-    padding-bottom: 0.5em;
-    padding-top: 0.5em;
+    max-width: 80%;
+    margin-inline: auto;
+    text-align: justify;
 }
 
 
@@ -59,41 +56,20 @@
     flex: 2;
 }
 
-.side-content {
-	border: 1px solid white;
-	margin-left: 1em;
-	min-width: 25%;
-	padding: 1em;
+.collumns P {
+
+    font-size: 0.8rem;
 }
 
-.ns-side-content {
-   /* font-size: small; */
-   font-family: 'Fredoka', serif;
-}
-
-
-.ns-main-body h3{
+.ns-main-body h3 {
     font-family: 'Caslonia';
-    text-align: center;
     font-size: 2.5rem;
     margin: 0;
-    /* font-style: italic; */
-    margin-bottom: 1rem;
-}
-
-.ns-main-body h3::after{
-    border-bottom: 1px solid #2f2f2f;
-    content: '';
-    width: 300px;
-    height: 7px;
-    display: block;
-    margin: 0 auto;
+    margin-bottom: 0.5rem;
 }
 
 .ns-main-body p {
-    text-align: center;
-    font-family: 'Droid Serif', serif;
-    margin-top: 1rem;
+    margin-top: 0rem;
     margin-bottom: 1rem;
 }
 
@@ -107,13 +83,11 @@
     margin-bottom: auto;
     display: block;
     margin-inline: auto;
-    max-width: 60%;
-    max-height: 50%;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    max-width: 100%;
+    max-height: auto;
+    -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     border-radius: 2rem;
-
-
 }
 
 .ns-main-body a {
@@ -127,26 +101,35 @@
 }
 
 .ns-main-body a:hover {
-    color: black;
+    color: grey;
 }
 
 
-@media (width <= 1000px ){
+
+@media (width <=1400px) {
     .newspaper {
         max-width: unset;
     }
+
     .ns-subhead {
         font-size: smaller;
     }
 
 }
 
-@media (100px < width <= 1400px ){
-    .newspaper {
-        max-width: unset;
+@media (width <= 600px) {
+
+    .collumns {
+        max-width: 100%;
+        margin-inline: auto;
     }
-    .ns-subhead {
-        font-size: smaller;
+
+    .ns-main-body h3 {
+        font-size: 2rem;
+    }
+
+    .ns-main-body img {
+        max-width: 80%;
     }
 
 }
