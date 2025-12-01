@@ -13,7 +13,7 @@ const formatDate = (date: string | Date) => {
     <div class="blog-list">
         {
             allPosts.map((post: any) => (
-                <a href={post.id}>
+                <a href={`/blog/${post.id}`}>
                     <article class="entry-card">
                         <div class="entry-img">
                             <img
@@ -82,8 +82,7 @@ const formatDate = (date: string | Date) => {
         flex-grow: 1;
     }
     .entry-meta h2 {
-        font-family: "Caslonia", serif;
-        font-size: 2.5rem;
+        font-family: "Lato", sans-serif;
         margin: 0 0 0.5rem 0;
         max-width: 80%;
     }

@@ -1,5 +1,6 @@
 ---
 title: 'To dump or not to dump'
+slug: 'to-dump-or-not-to-dump'
 description: 'Binge watching the greatest show on earth'
 week: 'Week 1'
 pubDate: 2025-07-19T19:59:34+05:30
@@ -9,8 +10,9 @@ image:
   alt: ''
 tags: ['movies', 'urban']
 ---
-
-# Week 1. July 2025
+import BlogPostImg from '../components/BlogPostImg.astro';
+export const components = {img: BlogPostImg};
+import Spotify from '../components/Spotify.astro';
 
 Hello my n-words (nice people). I seriously believe that only 5 people read this, but if you are one
 of them, thanks a lot. You are the real **G**.  
@@ -40,7 +42,7 @@ until I left. I could not even ask his name, and we spoke for like 5 times in si
 him. Anyway, I am now at that point where you finish a show and your entire personality ends with it.
 
 Not to beat the dead horse, but:
-{{< figure src="https://www.shitpostbot.com/img/sourceimages/skeleton-looking-outside-57b6f02424384.jpeg" alt="Skeleton Looking out of the window" width="500px" attr="Me when I finish the show I have been watching" align="center">}}
+![Skeleton Looking out of the window](https://www.shitpostbot.com/img/sourceimages/skeleton-looking-outside-57b6f02424384.jpeg "Me when I finish the show I have been watching")
 
 So I am up for taking recommendations if you guys have any, and I won't rob you of the satisfaction
 like I did with my ex-roommate.
@@ -83,12 +85,14 @@ are reading this, respect++. I don't know anyone who could be doing what you are
 a good friend.
 
 Thank you for showing me this.
-{{< figure src="https://theblog-static.s3.ap-south-1.amazonaws.com/week29/week29_harrypotter.jpg" alt="A copy of Harry Potter Signed By J.K Rowling" width="500px" attr="J.K Rowling Signed This" align="center">}}
+
+![A copy of Harry Potter Signed By J.K Rowling](https://theblog-static.s3.ap-south-1.amazonaws.com/week29/week29_harrypotter.jpg "J.K Rowling Signed This")
 
 ## Song Segment
 A few of my friends and I keep sharing songs most days, so I thought I'll share the song I enjoyed the
 most this week here with you all.
-{{< spotify type="track" id="2BWamRwg88R4uFP2W2Itto" width="100%" height="200" >}}
+
+<Spotify id="2BWamRwg88R4uFP2W2Itto" type="track" />
 
 ## Walking in Bangalore and My Thoughts
 While going to work this Monday, my auto driver almost hit a train of blind people being led by a man.
@@ -118,4 +122,3 @@ the GitHub project.
 - I'll be adding analytics so that I can track all of you (not really)
 - I'll be moving the static file storage to cloudflare r2
 - Links will open in a new tab
-

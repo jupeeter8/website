@@ -83,7 +83,7 @@
         margin-bottom: 0.5rem;
     }
 
-    .blog-body h3 + p {
+    .blog-body h3+p {
         margin-top: 0;
     }
 
@@ -95,23 +95,30 @@
         color: rgb(170, 135, 40);
     }
 
-@media (width <= 500px) {
-
-    .blog {
-        max-width: unset;
+    blockquote {
+        border-left: 2px solid grey;
+        margin-left: 0;
+        padding: 0.2rem 0 0.2rem 1rem;
+        font-style: italic;
     }
 
-    .blog-body {
-        position: unset;
-        max-width: unset;
-        padding-left: unset;
-        padding-right: unset;
-    }
-}
+    @media (width <=500px) {
 
-@media (500px < width <= 1000px) {
+        .blog {
+            max-width: unset;
+        }
 
-    .blog {
-        max-width: unset;
+        .blog-body {
+            position: unset;
+            max-width: unset;
+            padding-left: unset;
+            padding-right: unset;
+        }
     }
-}
+
+    @media (500px < width <=1000px) {
+
+        .blog {
+            max-width: unset;
+        }
+    }
