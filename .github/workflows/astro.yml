@@ -78,4 +78,4 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           script: |
             # Unpack the tar file to the desired location
-            tar -xzf output.tar.gz -C /opt/website/astro --strip-components=1
+            tar -xzf /opt/website/astro/output.tar.gz -C /opt/website/astro --strip-components=1
