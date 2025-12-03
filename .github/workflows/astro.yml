@@ -62,7 +62,7 @@ jobs:
           path: .
 
       - name: Login to remote server
-        uses: appleboy/ssh-action@v0.1.11
+        uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USERNAME }}
