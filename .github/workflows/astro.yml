@@ -44,7 +44,7 @@ jobs:
           tar -czf output.tar.gz ./dist
         working-directory: ${{ env.BUILD_PATH }}
       - name: Upload output artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: output.tar.gz
           path: output.tar.gz
@@ -56,7 +56,7 @@ jobs:
 
       # copy the tar file from the build job
       - name: Copy files from build job
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: output.tar.gz
           path: .
