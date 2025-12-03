@@ -1,0 +1,46 @@
+---
+import type { GetStaticPaths } from "astro";
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('blog'))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const currentPostIndex = posts.findIndex((post) => post.id == Astro.params.slug);
+const previousPost = currentPostIndex + 1 === posts.length ? undefined : posts[currentPostIndex + 1];
+const nextPost = currentPostIndex === 0 ? undefined : posts[currentPostIndex - 1];
+---
+
+{
+  (previousPost || nextPost) && (
+    <nav>
+        <ul class="blog-nav">
+            { previousPost && (
+                <li>
+                <a href={`/blog/${previousPost.id}/`}>&larr; {previousPost.data.title}</a>
+                </li>
+            ) }
+            { nextPost && (
+                <li>
+                <a href={`/blog/${nextPost.id}/`}>{nextPost.data.title} &rarr;</a>
+                </li>
+            ) }
+        </ul>
+    </nav>
+  )
+}
+
+
+<style>
+.blog-nav {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+}
+
+.blog-nav li {
+
+    padding: 0.5rem;
+}
+</style>

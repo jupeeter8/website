@@ -2,6 +2,7 @@
 import "../styles/globals.css";
 import "../styles/blog.css";
 import Header from "../components/Header.astro";
+import BlogFooterNav from "../components/BlogFooterNav.astro";
 const { frontmatter } = Astro.props;
 const paragrap = false;
 const pubTime = new Date(frontmatter.pubDate);
@@ -19,7 +20,24 @@ blogMeta = blogMeta.filter((x) => !!x);
 <html>
     <head>
         <meta charset="utf-8" />
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
         <meta name="viewport" content="width=device-width" />
         <meta name="generator" content={Astro.generator} />
         <title>{frontmatter.title}</title>
@@ -44,8 +62,9 @@ blogMeta = blogMeta.filter((x) => !!x);
                         {blogMeta.map((key) => <li>{key}</li>)}
                     </ul>
                 </div>
-                <p class="entry-desc">{frontmatter.description}</p>
+                <p class="entry-desc"><em>{frontmatter.description}</em></p>
                 <slot />
+                <BlogFooterNav />
             </section>
         </main>
     </body>
@@ -58,8 +77,8 @@ blogMeta = blogMeta.filter((x) => !!x);
         const blog: any = document.getElementById("blog");
         blogBody.style.position = "static";
         blog.style.marginTop = "3rem";
-    } else  {
-        const url = image.getAttribute("src")
+    } else {
+        const url = image.getAttribute("src");
         if (url === "") {
             const blogBody: any = document.getElementById("blog-body");
             const blog: any = document.getElementById("blog");
