@@ -23,7 +23,8 @@ const formattedDate = today.toLocaleDateString("en-US", {
 
             <section class="collumns left">
                 <div class="supp-content">
-                    <p>The newest edition of the blog is out now featuring Some great new advancements that are hard to ingore Some great new advancements that are hard to ingore Some great new advancements that are hard to ingore</p>
+                    <p>In a stunning turn of events, chronically online Anirudh has come out from underneath his rock, to touch some grass. "I can't believe it!" says a friend.
+                    </p>
                 </div>
             </section>
 
@@ -38,8 +39,19 @@ const formattedDate = today.toLocaleDateString("en-US", {
                 </div>
             </section>
             <section class="collumns right">
-
-                <div class="supp-content"><p>Make sure to read through everything since this is the one you dont want to miss. Oh you wished how you could get this in your termianl? Run <code><mark>curl news.whereisanirudh.info</code></p></div>
+                <!-- <div class="supp-content">
+                    <p>Want this in your terminal? Run <code><mark>curl news.whereisanirudh.info</mark></code></p>
+                </div> -->
+                <div class="supp-content">
+                    <h4>In other news</h4>
+                    <a href={`/blog/${prevPost.id}`}>
+                    <p><strong>{prevPost.data.title}</strong></p>
+                    <p>{prevPost.data.summary}</p>
+                    </a>
+                </div>
             </section>
+        </div>
+        <div class="ns-footer">
+            <p>Want this in your terminal? Run <code>curl news.whereisanirudh.info</code></p>
         </div>
 </section>
