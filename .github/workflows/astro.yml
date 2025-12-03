@@ -60,6 +60,15 @@ jobs:
         with:
           name: output.tar.gz
           path: .
+      
+      - name: Copy files via SSH
+        uses: appleboy/scp-action@v1
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USERNAME }}
+          key: ${{ secrets.SSH_KEY }}
+          source: "output.tar.gz"
+          target: /opt/website/astro
 
       - name: Login to remote server
         uses: appleboy/ssh-action@master
