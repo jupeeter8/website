@@ -67,6 +67,7 @@ jobs:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USERNAME }}
           key: ${{ secrets.SSH_KEY }}
+          port: ${{ secrets.SSH_PORT }}
           source: "output.tar.gz"
           target: /opt/website/astro
 
@@ -76,6 +77,7 @@ jobs:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USERNAME }}
           key: ${{ secrets.SSH_KEY }}
+          port: ${{ secrets.SSH_PORT }}
           script: |
             # Unpack the tar file to the desired location
             tar -xzf /opt/website/astro/output.tar.gz -C /opt/website/astro --strip-components=1
