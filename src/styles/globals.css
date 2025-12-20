@@ -1,78 +1,95 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
 @font-face {
     font-family: "Caslonia";
     src: url("/src/static/fonts/Caslonia-Regular.otf") format("opentype");
 }
 
+/* Global Variable  */
+:root {
+    --bg-color: #ededed;
+    --font-color: #2f2f2f;
+}
 html {
-	box-sizing: border-box;
-	/* font-size: 16px; */
+    box-sizing: border-box;
+    /* font-size: 16px; */
 }
 
 *,
 *::before,
 *::after {
-	box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 body {
-	font-family: "Lato", sans-serif;
-	margin: 5% auto;
-	max-width: 60%;
-	color: #2f2f2f;
-	background-color: #ededed;
+    font-family: "Lato", sans-serif;
+    font-family: "Noto Sans JP", sans-serif;
+    font-variation-settings: "width" 100;
+    margin: 5% auto;
+    max-width: 50%;
+    color: var(--font-color);
+    background-color: var(--bg-color) ;
+}
+
+.cont-paragrap {
+    word-spacing: 0.1rem;
+    line-height: 1.5rem;
 }
 
 mark {
-	--mark-color: #f8db75;
-	--mark-skew: 0.25em;
-	--mark-height: 1em;
-	--mark-overlap: 0.3em;
+    --mark-color: #f8db75;
+    --mark-skew: 0.25em;
+    --mark-height: 1em;
+    --mark-overlap: 0.3em;
 
-	margin-inline: calc(var(--mark-overlap) * -1);
-	padding-inline: var(--mark-overlap);
+    margin-inline: calc(var(--mark-overlap) * -1);
+    padding-inline: var(--mark-overlap);
 
-	background-color: transparent;
-	background-image:
-		linear-gradient(to bottom right,
-			transparent 50%,
-			var(--mark-color) 50%),
-		linear-gradient(var(--mark-color),
-			var(--mark-color)),
-		linear-gradient(to top left,
-			transparent 50%,
-			var(--mark-color) 50%);
-	background-size:
-		var(--mark-skew) var(--mark-height),
-		calc(100% - var(--mark-skew) * 2 + 1px) var(--mark-height),
-		var(--mark-skew) var(--mark-height);
-	background-position:
-		left center,
-		center,
-		right center;
-	background-repeat: no-repeat;
-	color: #2f2f2f;
+    background-color: transparent;
+    background-image:
+        linear-gradient(to bottom right,
+            transparent 50%,
+            var(--mark-color) 50%),
+        linear-gradient(var(--mark-color),
+            var(--mark-color)),
+        linear-gradient(to top left,
+            transparent 50%,
+            var(--mark-color) 50%);
+    background-size:
+        var(--mark-skew) var(--mark-height),
+        calc(100% - var(--mark-skew) * 2 + 1px) var(--mark-height),
+        var(--mark-skew) var(--mark-height);
+    background-position:
+        left center,
+        center,
+        right center;
+    background-repeat: no-repeat;
+    color: var(--font-color);
 }
 
-@media (width <= 650px) {
-	body {
-		max-width: unset;
-		padding: 1.5rem;
-	}
+
+
+@media (width <=650px) {
+    body {
+        max-width: unset;
+        padding: 1.5rem;
+    }
 }
 
-@media (650px < width <= 1000px) {
+@media (650px < width <=1000px) {
 
-	body {
-		max-width: 80%;
-		padding: 1rem;
-	}
+    body {
+        max-width: 80%;
+        padding: 1rem;
+    }
 
 }
 
 @media (width > 1920px) {
-	html {
-		font-size: 20px;
-	}
+    html {
+        font-size: 20px;
+    }
 }
