@@ -1,15 +1,23 @@
     .blog {
-        max-width: 80%;
         margin-inline: auto;
         margin-top: 3rem;
     }
+
+    .blog h1, h2, h3, h4 {
+        font-family: "Shizuru", system-ui;
+    }
+
 
     img {
         max-width: 100%;
         height: auto;
         margin-top: 2rem;
-        margin-bottom: 0.5rem;
+        /* margin-bottom: 0.5rem; */
         border-radius: 0.5rem;
+    }
+
+    .blog-img {
+        margin-inline: 0;
     }
 
     .blog-img figcaption p {
@@ -18,6 +26,8 @@
         font-size: 0.8rem;
         font-style: italic;
         margin-bottom: 1.5rem;
+        word-spacing: 0.2rem;
+        letter-spacing: 0.1rem;
     }
 
     .entry-desc {
@@ -32,17 +42,12 @@
         max-width: 100%;
         height: auto;
         border-radius: 0rem;
-        margin: 0;
+        margin: 0 0 2rem 0;
     }
 
     .blog-body {
-        position: relative;
-        max-width: 90%;
         margin-inline: auto;
-        top: -8rem;
-        left: -1rem;
-        background-color: #ededed;
-        padding: 1.4rem;
+        background-color: var(--bg-color);
     }
 
     .blog-body .entry-title {
@@ -57,7 +62,6 @@
         margin: 0;
         padding: 0;
         padding-left: 1.3rem;
-        font-family: "Lato", sans-serif;
         font-size: 0.8rem;
         color: #696969;
     }
@@ -73,8 +77,9 @@
     }
 
     .blog-body p {
-        font-size: 16px;
+        font-size: 1.08rem;
         word-spacing: 0.1rem;
+        line-height: 1.5rem;
     }
 
     .blog-body h3 {
@@ -107,11 +112,8 @@
             margin-top: 3rem;
         }
 
-        .blog-body {
-            position: unset;
-            max-width: unset;
-            padding-left: unset;
-            padding-right: unset;
+        .blog-body p {
+            font-size: 1rem;
         }
     }
 
