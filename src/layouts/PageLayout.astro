@@ -30,9 +30,10 @@ const { pageTitle, paragraph, tabTitle } = Astro.props;
         <title>Anirudh Aswal | {tabTitle}</title>
     </head>
     <body>
-        <main>
             <Header pageTitle={pageTitle} paragraph={paragraph} />
-            <slot />
-        </main>
+            <main>
+                <slot />
+            </main>
+            
     </body>
 </html>
