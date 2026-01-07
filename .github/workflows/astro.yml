@@ -69,7 +69,7 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           port: ${{ secrets.SSH_PORT }}
           script: |
-            rm -rf /opt/website/astro/output.tar.gz; rm -rf ~/output.tar.gz
+            sudo rm /opt/website/astro/output.tar.gz; sudo rm ~/output.tar.gz
 
       - name: Copy files to remote server
         uses: appleboy/scp-action@v1
