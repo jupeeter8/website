@@ -9,6 +9,7 @@
         margin-top: 2rem;
         margin-bottom: 0.5rem;
         border-radius: 0.5rem;
+        max-height: 80vh;
     }
 
     .blog-img {
