@@ -17,58 +17,30 @@ let blogMeta = [frontmatter.week, month, tag];
 blogMeta = blogMeta.filter((x) => !!x);
 ---
 
-<html>
-    <head>
-        <meta charset="utf-8" />
-        <link
-            rel="apple-touch-icon"
-            sizes="180x180"
-            href="/apple-touch-icon.png"
-        />
-        <link
-            rel="icon"
-            type="image/png"
-            sizes="32x32"
-            href="/favicon-32x32.png"
-        />
-        <link
-            rel="icon"
-            type="image/png"
-            sizes="16x16"
-            href="/favicon-16x16.png"
-        />
-        <link rel="manifest" href="/site.webmanifest" />
-        <meta name="viewport" content="width=device-width" />
-        <meta name="generator" content={Astro.generator} />
-        <title>{frontmatter.title}</title>
-    </head>
-    <body>
-        <Header pageTitle="The Blog" paragraph={paragrap} />
-        <main class="blog" id="blog">
-            {
-                frontmatter.image && (
-                    <img
-                        class="title-img"
-                        src={frontmatter.image.url}
-                        width="300"
-                        alt={frontmatter.image.alt}
-                    />
-                )
-            }
-            <section class="blog-body" id="blog-body">
-                <h2 class="entry-title">{frontmatter.title}</h2>
-                <div class="blog-header">
-                    <ul>
-                        {blogMeta.map((key) => <li>{key}</li>)}
-                    </ul>
-                </div>
-                <p class="entry-desc"><em>{frontmatter.description}</em></p>
-                <slot />
-                <BlogFooterNav />
-            </section>
-        </main>
-    </body>
-</html>
+<div class="blog" id="blog">
+    {
+        frontmatter.image && (
+            <img
+                class="title-img"
+                src={frontmatter.image.url}
+                width="300"
+                alt={frontmatter.image.alt}
+            />
+        )
+    }
+    <section class="blog-body" id="blog-body">
+        <h2 class="entry-title">{frontmatter.title}</h2>
+        <div class="blog-header">
+            <ul>
+                {blogMeta.map((key) => <li>{key}</li>)}
+            </ul>
+        </div>
+        <p class="entry-desc"><em>{frontmatter.description}</em></p>
+        <slot />
+        <BlogFooterNav />
+    </section>
+</div>
+
 <script>
     const image = document.querySelector(".title-img");
 
