@@ -60,16 +60,6 @@ jobs:
         with:
           name: output.tar.gz
           path: .
-      
-      - name: Clean up old files on server
-        uses: appleboy/ssh-action@master
-        with:
-          host: ${{ secrets.SSH_HOST }}
-          username: ${{ secrets.SSH_USERNAME }}
-          key: ${{ secrets.SSH_KEY }}
-          port: ${{ secrets.SSH_PORT }}
-          script: |
-            sudo rm /opt/website/astro/output.tar.gz; sudo rm ~/output.tar.gz
 
       - name: Copy files to remote server
         uses: appleboy/scp-action@v1
@@ -90,4 +80,14 @@ jobs:
           port: ${{ secrets.SSH_PORT }}
           script: |
             # Unpack the tar file to the desired location
-            tar -xzf /opt/website/astro/output.tar.gz -C /opt/website/astro --strip-components=1
+            sudo tar -xzf /opt/website/astro/output.tar.gz -C /opt/website/astro --strip-components=1
+
+      - name: Login to remote server
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USERNAME }}
+          key: ${{ secrets.SSH_KEY }}
+          port: ${{ secrets.SSH_PORT }}
+          script: |
+            sudo rm /opt/website/astro/output.tar.gz
