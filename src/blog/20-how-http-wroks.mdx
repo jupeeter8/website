@@ -1,0 +1,247 @@
+---
+title: 'How HTTP Works (and other cool things for nerds)'
+slug: 'how-http-works'
+description: "Networking and HTTP things I learned this week"
+week: Week 20
+pubDate: 2026-05-01T13:39:35+05:30
+draft: true
+image:
+    url: ''
+    alt: '' 
+tags: ["tech"]
+summary: "epic"
+---
+import Spotify from '../components/Spotify.astro'; 
+import BlogPostImg from '../components/BlogPostImg.astro';
+export const components = {img: BlogPostImg}
+import { Code } from 'astro:components';
+
+For a while I have been interested in understanding how network requests are actually made. I am old
+now and I dont care about what `requests.post()` does. I need to know what black magic python is doing
+under the hood that puts my data on the actual wire. 
+
+The problem is that every medium article on the topic has been written by drooling
+toddler that has done nothing more than copy another medium article. They mention that network requests
+are made by opening a socket. "Okay? What is a socket?" I ask and I scroll down to find no explanation.
+One person has commented "Great explanation!". Am I missing something? Surely this can't be it. I tried
+talking to AI but all it does is give analogies which make even less sense. It's as if it belives my 
+brain is too small for the details. So I decided to go down the rabbit hole myself and will now proceed
+to explain all that I have gathered so far. 
+
+### Processes and Pipes (Cool thing number 1)
+
+If you have ever used Linux you may have come across the humble pipe (this bad boy `|`). It is a type of
+inter process communication or IPC. IPC allows processes to share data between each other, just like
+a server and a client talking over the network. what pipe does is takes the output of one process
+(stdout) and gives it to the input of another process (stdin). A very trivial yet very useful function.
+you can do things like this
+
+<Code code={`echo "Anirudh likes pipes" | sed 's/pipes/pies/g' | tr ' ' '\\n'
+# output
+Anirudh
+likes
+pies
+`} lang="bash" />
+`echo` prints `Anirudh likes pipes` to the stdout. The first pipe takes it and gives it to the `sed` command
+which replaces `pipes` with `pies` and finally the second pipe give it to `tr` which converts all spaces
+to newlines. Neat, very useful, I use it everyday but there is a big problem: it is unidirectional.
+The data flows from left to right between processes. Not very useful for wiring http requests (or much else that needs two-way communication).
+
+### Named Pipes (cool thing number 2)
+There is another thing called named pipes (FIFOs). Like regular pipes, they are unidirectional.
+To get bidirectional communication you need two of them, one in each direction.
+A named pipe is just like any other file on the system. Two or more processes can read from or
+write to it. you can make one very easily by typing `mkfifo mycoolpipe` in your terminal and start
+writing to it. 
+<Code code={`mkfifo mycoolpipe
+echo "Hello world" > mycoolpipe
+`} lang="bash"/>
+
+You will notice that nothing happens and echo just hangs becuase the process is waiting for something
+to read from the pipe. If you do `cat mycoolpipe` in another terminal you will get the output and
+only then the first process will move on. It is true the other way round as well, if you do `cat mycoolpipe`
+but there is no data to read, `cat` will hang until something writes data to pipe. This behaviour allows
+process to synchronize themselves. So can you do http requests using named pipes. Absolutely because
+HTTP is an "Application layer protocol". This term did not make sense to me for the longest time but
+what it basically means is that http is implemented and enforced by the application (server) receiving the data.
+It does not care how it receives the bytes. The only thing application cares about is whether the bytes
+are a valid http request. If they are, then it should reply with an http response. If not, it returns
+a 400 Bad Request (as far as i know. You could be evil and send anything back).
+
+Named pipes are fun but they work locally. I can't write to a named pipe on my friends computer
+to send him all my funny memes. There are more ways for IPC but I don't understand them well and they
+are not important. if you want you can read [this](https://courses.grainger.illinois.edu/cs241/sp2014/lecture/27-IPC.pdf) or [this](https://people.freebsd.org/~lstewart/articles/cpumemory.pdf).
+None of it made sense to me but I have been told they are very important.
+
+### Sockets and File Descriptors (cool thing number 3 and 4)
+Okay I'll be honest I still don't understand what sockets truly are. They still seem like black
+magic to me. There are a few types of sockets but I'll only talk about TCP sockets.
+From what I understand sockets are abstraction by the kernel that allows two processes to pass messages
+between each other. This message passing is logical. Two processes A and B running on a machine
+can request the kernel to send and recieve messages to each other using
+system calls. So if process A says `send(data=message, address_of=B)` the OS takes this message
+and keeps it in a special container. B can request the data from the container saying by `recieve(my_address)` 
+and the OS will give it the message that A sent. The OS also ensures that the message is delivered to 
+the correct process by looking at the address specified in the message.
+
+Here address of B is the logical address where B is "listening" for messages. Other processes can
+"connect" to that address for sending messages. A or B can't directly access these addresses and must
+talk to the kernel for communication using system call. This address is basically the port that the
+processes are listening on or connecting to. OS will look at a message, see which port it is supposed
+to go to and send it to the process bound to that port. So Sockets are basically the combination
+of a protocol (TCP/IP) and an address (PORT) that tells OS where the data must go to. 
+Since none of this requires shared memory or shared files between processes, If two machines
+can be wired up togther using network and some extra bit of code to explain the OS that the 
+IP for this message belongs to another machine reachable through the network card, you can have IPC between two machines.
+
+if process A wants to send a message to process B on another machine, the OS will take the data, 
+convert it to TCP packets and send it to the network
+card. The network card will check which machine the packets are supposed to go to and send it over the network. 
+The receiving machine's network card will receive the packets, notify the OS that there is a message.
+The OS will then look at the port specified in the message and send it to the porcess listening on that port.
+Two processes can now talk thanks to the OS, the network card and the drivers that make them work together.
+
+![](https://theblog-static.s3.ap-south-1.amazonaws.com/week20/SockDiagram.png "A very bad example of how sockets work" )
+
+### How does this work?
+I don't know. TCP is a transport layer protocol. It is kernel's job
+to implement it and ensure it's working, much of it is abstracted away and the same goes for sockets.
+
+Besides all of this, it acutally very easy to open tcp sockets. The first thing you need is a
+file descriptor. A file descriptor is Unix's way of doing any form of I/O. It is positive integer
+given to a process. This integer points to data structures inside the kernel which keeps track of
+all open files, pipes, sockets and any other form of IO which is also why you hear "Everything is 
+a file on linux". The second thing you need is a `socket()` systemcall that will bind your file descriptor
+to a socket with a port so that you can perform network I/O. If that sounds too complex there is an
+easier way. Bash allows you to create tcp sockets without doing much
+
+<Code code={`#!/usr/bin/env bash
+
+exec 3<>/dev/tcp/example.com/80
+
+printf "GET / HTTP/1.1\\r\\n" >&3
+printf "Host: example.com\\r\\n" >&3
+printf "Connection: close\\r\\n" >&3
+printf "\\r\\n" >&3
+
+# 3. Read and print the response
+cat <&3
+
+# 4. Close the file descriptor
+exec 3<&-`} lang="bash" theme="dracula"/>
+
+The `exec 3` opens a file descriptor 3 and `<>` indicate that we are opening it for reading and
+writing.  
+`/dev/tcp` is not a real file. It is bash magic that opens
+a tcp socket and allows us to write text to it using the file descriptor.
+Yes text because HTTP literally just sends text. This script sends each line to the server example.com and
+once the request is finished (indicated by `\r\n`) the server sends a reply to my socket and
+we read it from the file descriptor 3. Since this is a TCP connection, I can technically send anything.
+TCP does not care what the bytes mean. All it cares about is that the data reaches its destination (transport layer).
+The server should read the bytes and complain if it is not a valid http request (application layer).
+
+so I can do something like this:
+<Code code={`#!/usr/bin/env bash
+
+exec 3<>/dev/tcp/example.com/80
+
+printf "plis send credit card info" >&3
+
+# 3. Read and print the response
+cat <&3
+
+# 4. Close the file descriptor
+exec 3<&-
+`} lang="bash" theme="dracula"/>
+
+and I get the following response:
+
+```
+HTTP/1.1 400 Bad Request
+Server: cloudflare
+Date: Fri, 01 May 2026 05:36:59 GMT
+Content-Type: text/html
+Content-Length: 155
+Connection: close
+CF-RAY: -
+
+<html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+```
+
+### HTTP Internals:
+
+HTTP is a protocol for just sending text. It is surprsingly simple if you want to implement an
+HTTP webserver. [RFC 9112](https://datatracker.ietf.org/doc/html/rfc9112#section-3.2.2-9) outlines
+the spec one must follow for a valid HTTP application. I decided to write my own to see how far I can
+go and how well I understand some of the things I had been reading. So what do I need to do to implement it?
+
+The spec tells me that I must parse the bytes in this order
+1. request-line (Contains the method, request path and HTTP version to use)
+2. Headers 
+3. Message Body (if it exists) as indicated by the Content-Length header until I read all of it or clinet closes the connection.
+
+![](https://theblog-static.s3.ap-south-1.amazonaws.com/week20/HttpSec.png "The HTTP message format as specified in RFC 9112")
+![](https://theblog-static.s3.ap-south-1.amazonaws.com/week20/HttpExample.png "An example of a valid HTTP request") 
+
+That's it. In code it looks something like this
+<Code code={`int fd = socket(AF_INET, SOCK_STREAM, 0);
+
+struct sockaddr_in addr  = {
+    .sin_family = AF_INET,
+    .sin_port = htons(80),
+    .sin_addr.s_addr = INADDR_ANY
+};
+
+int error = bind(fd, (struct sockaddr *)&addr, sizeof(addr));
+
+if (error < 0) {
+    perror("bind failed");
+    return 1;
+}
+listen(fd, 5);
+
+int client_fd = accept(fd, NULL, NULL);
+
+char buff[4096];
+recv(client_fd, buff, sizeof buff, 0);
+`} lang="c" theme="dracula"/>
+
+I make a `socket()` system call which gives me the file descriptor of my new socket. `SOCK_STREAM`
+tells OS that it is a TCP socket. `AF_INET` sets the IP protocol to IPv4.
+
+the `sockaddr_in` tells the OS that I'll listen on port 80 from any address (0.0.0.0/0).  
+`bind()` systemcall
+binds my address `sockaddr_in` to my socket and then i am ready to `listen()` and `accept()`
+connection from a client that can send me arbitrary bytes.  
+
+I can read the bytes using
+`recv()`. Once I have my bytes I can start parsing it according to 
+`RFC 9112` to check if it is a valid HTTP message. So far I can parse the request line and headers.
+[Code here](https://github.com/jupeeter8/tinywebserver/blob/main/main.c)
+
+Example:
+![](https://theblog-static.s3.ap-south-1.amazonaws.com/week20/terminalexample.png "Sending a curl request to my server" )
+
+### Problems:
+1. I still do not parse the message body
+2. I do not send a valid HTTP response
+3. I do not bounds check so if someone sends a TCP payload of my buffer size (4096 bytes),
+my parser loop never stops and starts printing values from other memory and prints my env variables (terrible)
+4. My server does nothing at the moment.
+
+I plan to fix these in the coming weeks. My goal is to try to make a server functional enough that
+I can swap out my nginx and use my own server. Next update after I can send a valid HTTP response
+and handle atlest 5 clients at the same time.
+
+### Epic Resources I used:
+1. [Beej's Guide to Network Programming](https://beej.us/guide/bgnet/html/)
+2. [RFC 9112](https://datatracker.ietf.org/doc/html/rfc9112#section-3.2.2-9)
+3. [Tsdoing](https://www.youtube.com/watch?v=JRTLSxGf_6w)
+4. [YASP](https://www.youtube.com/watch?v=tSoFTD9Y8UU)
+5. [Beej's Guide to C Programming](https://beej.us/guide/bgc/html/split/)

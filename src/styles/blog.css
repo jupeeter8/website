@@ -76,6 +76,7 @@
     }
 
     .blog-body p {
+
         font-size: 1rem;
         word-spacing: 0.1rem;
         line-height: 1.5rem;
@@ -103,6 +104,22 @@
         margin-left: 0;
         padding: 0 0 0 1rem;
         font-style: italic;
+    }
+
+    pre {
+        padding: 1rem;
+        border-radius: 0.25rem;
+    }
+
+    pre > code {
+        background-color: unset;
+    }
+
+    code {
+        background-color: rgb(208, 204, 198);
+        padding: 0.025em .125em;
+        border-radius: 0.25em;
+
     }
 
     @media (width <=500px) {
