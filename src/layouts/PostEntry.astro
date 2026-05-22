@@ -6,7 +6,13 @@ import BlogFooterNav from "../components/BlogFooterNav.astro";
 const { frontmatter } = Astro.props;
 const paragrap = false;
 const pubTime = new Date(frontmatter.pubDate);
-const month = pubTime.toDateString();
+const month = pubTime.toLocaleDateString("en-US", {
+    weekday: "short",
+    month: "short",
+    day: "2-digit",
+    year: "numeric",
+    timeZone: "Asia/Kolkata",
+});
 let tag;
 if (frontmatter.tags == null) {
     tag = null;
